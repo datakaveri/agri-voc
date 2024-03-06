@@ -8,21 +8,18 @@
     },
     "@graph": [
         {
-            "@id": "adex:locality",
+            "@id": "adex:productGrade",
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "Area name of the location corresponding to this observation.",
-            "rdfs:label": "locality",
+            "rdfs:comment": "The grade of the agricultural product or item corresponding to this observation.",
+            "rdfs:label": "productGrade",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AddressDesc"
-                },
-                {
-                    "@id": "adex:LocaleDesc"
+                    "@id": "adex:AgriMarket"
                 }
             ],
             "adex:rangeIncludes": [

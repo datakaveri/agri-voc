@@ -8,26 +8,23 @@
     },
     "@graph": [
         {
-            "@id": "adex:locality",
+            "@id": "adex:pows",
             "@type": [
-                "adex:TextProperty"
+                "adex:QuantitativeProperty"
             ],
-            "rdfs:comment": "Area name of the location corresponding to this observation.",
-            "rdfs:label": "locality",
+            "rdfs:comment": "Pods without Stem (POWS) represents the harvested agricultural produce such as vegetables, fruits, etc. that lack stems, which may impact overall appearance and handling.",
+            "rdfs:label": "pows",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AddressDesc"
-                },
-                {
-                    "@id": "adex:LocaleDesc"
+                    "@id": "adex:AgriProduceQuality"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "adex:Number"
                 },
                 {
                     "@id": "adex:ValueDescriptor"

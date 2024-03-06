@@ -8,26 +8,23 @@
     },
     "@graph": [
         {
-            "@id": "adex:locality",
+            "@id": "adex:brokenProduce",
             "@type": [
-                "adex:TextProperty"
+                "adex:QuantitativeProperty"
             ],
-            "rdfs:comment": "Area name of the location corresponding to this observation.",
-            "rdfs:label": "locality",
+            "rdfs:comment": "The physically broken or cracked, impacting overall integrity of the product or item.",
+            "rdfs:label": "brokenProduce",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AddressDesc"
-                },
-                {
-                    "@id": "adex:LocaleDesc"
+                    "@id": "adex:AgriProduceQuality"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "adex:Number"
                 },
                 {
                     "@id": "adex:ValueDescriptor"

@@ -8,21 +8,18 @@
     },
     "@graph": [
         {
-            "@id": "adex:locality",
+            "@id": "adex:warehouseName",
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "Area name of the location corresponding to this observation.",
-            "rdfs:label": "locality",
+            "rdfs:comment": "Name of the ware house corresponding to this observation.",
+            "rdfs:label": "warehouseName",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AddressDesc"
-                },
-                {
-                    "@id": "adex:LocaleDesc"
+                    "@id": "adex:AgriMarket"
                 }
             ],
             "adex:rangeIncludes": [

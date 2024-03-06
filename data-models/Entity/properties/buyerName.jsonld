@@ -8,21 +8,18 @@
     },
     "@graph": [
         {
-            "@id": "adex:locality",
+            "@id": "adex:buyerName",
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "Area name of the location corresponding to this observation.",
-            "rdfs:label": "locality",
+            "rdfs:comment": "Name of the buyer in a trade corresponding to this observation.",
+            "rdfs:label": "buyerName",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AddressDesc"
-                },
-                {
-                    "@id": "adex:LocaleDesc"
+                    "@id": "adex:AgriMarket"
                 }
             ],
             "adex:rangeIncludes": [

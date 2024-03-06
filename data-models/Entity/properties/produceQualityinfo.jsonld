@@ -8,29 +8,23 @@
     },
     "@graph": [
         {
-            "@id": "adex:locality",
+            "@id": "adex:produceQualityinfo",
             "@type": [
-                "adex:TextProperty"
+                "adex:StructuredProperty"
             ],
-            "rdfs:comment": "Area name of the location corresponding to this observation.",
-            "rdfs:label": "locality",
+            "rdfs:comment": "The total land area allocated for the storage of commodities in the market/mandi corresponding to this observation.",
+            "rdfs:label": "produceQualityinfo",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AddressDesc"
-                },
-                {
-                    "@id": "adex:LocaleDesc"
+                    "@id": "adex:AgriMarket"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
-                },
-                {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "adex:AgriProduceQuality"
                 }
             ]
         }
