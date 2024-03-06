@@ -8,12 +8,12 @@
     },
     "@graph": [
         {
-            "@id": "adex:produceQualityinfo",
+            "@id": "adex:produceQualityInfo",
             "@type": [
                 "adex:StructuredProperty"
             ],
             "rdfs:comment": "The total land area allocated for the storage of commodities in the market/mandi corresponding to this observation.",
-            "rdfs:label": "produceQualityinfo",
+            "rdfs:label": "produceQualityInfo",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
             },
