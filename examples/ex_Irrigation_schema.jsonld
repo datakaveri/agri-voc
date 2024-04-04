@@ -26,6 +26,16 @@
                 "type": "object",
                 "description": "Location associated with a resource Item (a spatial point), a group of resource items (a spatial region) or even an observation in case of a mobile sensor."
             },
+            "irrigationCount": {
+                "type": "number",
+                "description": "The total number times the farm has been irrigated corresponding to this observation.",
+                "unitCode": "C62",
+                "unitText": "dimensionless"
+            },
+            "irrigationMethod": {
+                "type": "string",
+                "description": "The types of irrigating crops include surface irrigation, flooded field irrigation, drip irrigation, sprinkler irrigation, and subsurface irrigation."
+            },
             "observationDateTime": {
                 "type": "string",
                 "description": "Last reported time of observation.",

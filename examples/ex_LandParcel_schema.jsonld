@@ -22,6 +22,31 @@
                     }
                 ]
             },
+            "sowingDate": {
+                "type": "string",
+                "description": "The date at which the crop has been sown in the farm corresponding to this observation.",
+                "format": "date"
+            },
+            "irrigationCount": {
+                "type": "number",
+                "description": "The total number times the farm has been irrigated corresponding to this observation.",
+                "unitCode": "C62",
+                "unitText": "dimensionless"
+            },
+            "harvestDate": {
+                "type": "string",
+                "description": "The date at which the crop has been harvested in the farm corresponding to this observation.",
+                "format": "date"
+            },
+            "waterCoverage": {
+              "description": "The extent of the area covered by water during the irrigation process on a farm.",
+              "type": [
+                "ValueDescriptor"
+              ],
+              "unitCode": "P1",
+              "unitText": "percent",
+              "dataSchema": "iudx:Number"
+            },
             "location": {
                 "type": "object",
                 "description": "Location associated with a resource Item (a spatial point), a group of resource items (a spatial region) or even an observation in case of a mobile sensor."
@@ -30,6 +55,48 @@
                 "type": "string",
                 "description": "Last reported time of observation.",
                 "format": "date-time"
+            },
+            "cropHeight": {
+                "type": "number",
+                "description": "The height of the crop corresponding to this observation.",
+                "unitCode": "MTR",
+                "unitText": "metre"
+            },
+            "targetYield": {
+                "type": "number",
+                "description": "The desired or expected level of production for a specific agricultural crop within a given area or field.",
+                "unitCode": "KGM",
+                "unitText": "kilogram"
+            },
+            "previousCropName": {
+                "type": "string",
+                "description": "The name of the crop that was cultivated prior to the current crop in the land/ soil corresponding to this observation."
+            },
+            "cropAge": {
+                "type": "number",
+                "description": "The age of the crop species (in days) corresponding to the observation",
+                "unitCode": "C62",
+                "unitText": "Dimensionless"
+            },
+            "nextCropName": {
+                "type": "string",
+                "description": "The name of the crop that will be cultivated in the upcoming season orresponding to this observation."
+            },
+            "irrigationMethod": {
+                "type": "string",
+                "description": "The types of irrigating crops include surface irrigation, flooded field irrigation, drip irrigation, sprinkler irrigation, and subsurface irrigation."
+            },
+            "cropHealth": {
+                "type": "string",
+                "description": "The condition of the crop cultivated in the farm corresponding to this observation."
+            },
+            "plantingMethod": {
+                "type": "string",
+                "description": "The techniques and practices such as drill seeding, broadcasting, transplanting, etc. used to plant the crops for cultivation."
+            },
+            "cropNameCommon": {
+                "type": "string",
+                "description": "The common/local name of the crop species corresponding to the observation."
             },
             "landClassCode": {
                 "type": "string",
