@@ -8,16 +8,16 @@
     },
     "@graph": [
         {
-            "@id": "adex:leasePeriod",
+            "@id": "adex:plantingMethod",
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "The duration or tenure of the lease for a entity corresponding to this observation.",
-            "rdfs:label": "leasePeriod",
+            "rdfs:comment": "The techniques and practices such as drill seeding, broadcasting, transplanting, etc. used to plant the crops for cultivation.",
+            "rdfs:label": "plantingMethod",
+            "rdfs:isDefinedBy": {
+                "@id": "adex:"
+            },
             "adex:domainIncludes": [
-                {
-                    "@id": "adex:AgriMachinery"
-                },
                 {
                     "@id": "adex:LandParcel"
                 }
@@ -29,10 +29,7 @@
                 {
                     "@id": "adex:ValueDescriptor"
                 }
-            ],
-            "rdfs:isDefinedBy": {
-                "@id": "adex:"
-            }
+            ]
         }
     ]
 }

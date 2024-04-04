@@ -65,6 +65,9 @@
                 },
                 {
                     "@id": "adex:PowerDistribution"
+                },
+                {
+                    "@id": "adex:Commons"
                 }
             ],
             "adex:rangeIncludes": [

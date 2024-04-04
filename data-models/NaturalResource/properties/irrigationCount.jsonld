@@ -8,23 +8,23 @@
     },
     "@graph": [
         {
-            "@id": "adex:leasePeriod",
+            "@id": "adex:irrigationCount",
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "The duration or tenure of the lease for a entity corresponding to this observation.",
-            "rdfs:label": "leasePeriod",
+            "rdfs:comment": "The total number times the farm has been irrigated corresponding to this observation.",
+            "rdfs:label": "irrigationCount",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AgriMachinery"
+                    "@id": "adex:LandParcel"
                 },
                 {
-                    "@id": "adex:LandParcel"
+                    "@id": "adex:Irrigation"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "adex:Number"
                 },
                 {
                     "@id": "adex:ValueDescriptor"

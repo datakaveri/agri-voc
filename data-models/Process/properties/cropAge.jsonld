@@ -14,12 +14,12 @@
             ],
             "rdfs:comment": "The age of the crop species (in days) corresponding to the observation",
             "rdfs:label": "cropAge",
-            "rdfs:isDefinedBy": {
-                "@id": "adex:"
-            },
             "adex:domainIncludes": [
                 {
                     "@id": "adex:CropCondition"
+                },
+                {
+                    "@id": "adex:LandParcel"
                 }
             ],
             "adex:rangeIncludes": [
@@ -29,7 +29,10 @@
                 {
                     "@id": "adex:ValueDescriptor"
                 }
-            ]
+            ],
+            "rdfs:isDefinedBy": {
+                "@id": "adex:"
+            }
         }
     ]
 }

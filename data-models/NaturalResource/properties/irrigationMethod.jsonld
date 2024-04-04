@@ -8,18 +8,18 @@
     },
     "@graph": [
         {
-            "@id": "adex:leasePeriod",
+            "@id": "adex:irrigationMethod",
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "The duration or tenure of the lease for a entity corresponding to this observation.",
-            "rdfs:label": "leasePeriod",
+            "rdfs:comment": "The types of irrigating crops include surface irrigation, flooded field irrigation, drip irrigation, sprinkler irrigation, subsurface irrigation, etc",
+            "rdfs:label": "irrigationMethod",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AgriMachinery"
+                    "@id": "adex:LandParcel"
                 },
                 {
-                    "@id": "adex:LandParcel"
+                    "@id": "adex:Irrigation"
                 }
             ],
             "adex:rangeIncludes": [

@@ -8,16 +8,13 @@
     },
     "@graph": [
         {
-            "@id": "adex:leasePeriod",
+            "@id": "adex:sowingDate",
             "@type": [
-                "adex:TextProperty"
+                "adex:TimeProperty"
             ],
-            "rdfs:comment": "The duration or tenure of the lease for a entity corresponding to this observation.",
-            "rdfs:label": "leasePeriod",
+            "rdfs:comment": "The date at which the seeds are planted or sown in the soil for the purpose of germination and growth to begin the cultivation of crops.",
+            "rdfs:label": "sowingDate",
             "adex:domainIncludes": [
-                {
-                    "@id": "adex:AgriMachinery"
-                },
                 {
                     "@id": "adex:LandParcel"
                 }
