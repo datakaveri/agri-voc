@@ -12,7 +12,7 @@
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "Represents specific time of the year that has distinct weather patterns and conditions, such as summer, autumn (fall), etc.",
+            "rdfs:comment": "Represents distinct period of the year characterized by particular weather conditions, activities, or events.",
             "rdfs:label": "season",
             "adex:domainIncludes": [
                 {
@@ -29,6 +29,9 @@
                 },
                 {
                     "@id": "adex:Irrigation"
+                },
+                {
+                    "@id": "adex:LandParcel"
                 }
             ],
             "adex:rangeIncludes": [

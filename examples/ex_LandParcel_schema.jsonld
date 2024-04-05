@@ -27,6 +27,14 @@
                 "description": "The date at which the crop has been sown in the farm corresponding to this observation.",
                 "format": "date"
             },
+            "season": {
+                "type": "string",
+                "description": "Represents distinct period of the year characterized by particular weather conditions, activities, or events."
+            },
+            "cropCode": {
+                "type": "string",
+                "description": "The unique code for the crop species corresponding to this observation."
+            },
             "irrigationCount": {
                 "type": "number",
                 "description": "The total number times the farm has been irrigated corresponding to this observation.",
