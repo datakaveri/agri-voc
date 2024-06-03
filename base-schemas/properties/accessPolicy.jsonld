@@ -13,7 +13,7 @@
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "Defines the access policy for resources belonging to ResourceGroup or an individual Resource. In case of ResourceGroup item, it can take values: [OPEN, SECURE, PII]. OPEN implies all Resources in the group are open (and need no authorization token for data access). SECURE implies that all Resources are secured and will need authorization token for access. PII implies that the item has personal information.",
+            "rdfs:comment": "Defines the access policy for resources, it can take values: [OPEN, SECURE, PII]. OPEN implies the resource needs no explicit consent from the data provider or data owner. SECURE implies the resource needs an explicit consent from the data provider or data owner. PII implies that the resource has personal information and a consent artifact needs to be signed for accessing it.",
             "rdfs:label": "accessPolicy",
             "adex:domainIncludes": [
                 {
