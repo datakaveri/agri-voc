@@ -24,7 +24,7 @@
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "adex:Number"
                 },
                 {
                     "@id": "adex:ValueDescriptor"
