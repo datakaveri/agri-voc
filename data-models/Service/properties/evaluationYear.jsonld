@@ -20,6 +20,9 @@
             "adex:domainIncludes": [
                 {
                     "@id": "adex:AgriCredit"
+                },
+                {
+                    "@id": "adex:Irrigation"
                 }
             ],
             "adex:rangeIncludes": [
