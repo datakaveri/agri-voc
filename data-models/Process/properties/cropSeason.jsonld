@@ -23,6 +23,9 @@
                 },
                 {
                     "@id": "adex:HyperLocalAdvisory"
+                },
+                {
+                    "@id": "adex:DomesticPriceInfo"
                 }
             ],
             "adex:rangeIncludes": [

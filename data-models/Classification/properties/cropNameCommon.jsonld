@@ -32,6 +32,9 @@
                 },
                 {
                     "@id": "adex:LandParcel"
+                },
+                {
+                    "@id": "adex:AgriCredit"
                 }
             ],
             "adex:rangeIncludes": [

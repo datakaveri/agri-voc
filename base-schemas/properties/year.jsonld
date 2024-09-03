@@ -36,6 +36,9 @@
                 },
                 {
                     "@id": "adex:AgriCredit"
+                },
+                {
+                    "@id": "adex:DomesticPriceInfo"
                 }
             ],
             "adex:rangeIncludes": [
