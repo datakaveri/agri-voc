@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "iudx": "https://voc.iudx.org.in/",
+        "adex": "https://agrijson.org/"
+    },
+    "@graph": [
+        {
+            "@id": "adex:cropProduction",
+            "@type": [
+                "adex:QuantitativeProperty"
+            ],
+            "rdfs:comment": "The total quantity of a crop harvested from a particular area of land during a specific growing season corresponding to this observation.",
+            "rdfs:label": "cropProduction",
+            "rdfs:isDefinedBy": {
+                "@id": "adex:"
+            },
+            "adex:domainIncludes": [
+                {
+                    "@id": "adex:DomesticPriceInfo"
+                },
+                {
+                    "@id": "adex:CropCondition"
+                }
+            ],
+            "adex:rangeIncludes": [
+                {
+                    "@id": "adex:Number"
+                },
+                {
+                    "@id": "adex:ValueDescriptor"
+                }
+            ]
+        }
+    ]
+}
