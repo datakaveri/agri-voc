@@ -25,7 +25,7 @@
             ],
             "adex:rangeIncludes": [
                 {
-                    "@type": "@id",
+                    "@container": "@list",
                     "@id": "adex:Text"
                 },
                 {

@@ -8,12 +8,12 @@
     },
     "@graph": [
         {
-            "@id": "adex:revenueDivision",
+            "@id": "adex:revenueDivisionName",
             "@type": [
                 "adex:TextProperty"
             ],
             "rdfs:comment": "Name of the revenue division in a district corresponding to this observation.",
-            "rdfs:label": "revenueDivision",
+            "rdfs:label": "revenueDivisionName",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
             },
