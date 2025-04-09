@@ -17,3 +17,4 @@ zoneID,TXP,Zone ID corresponding to this observation.,LocaleDesc,"Text, ValueDes
 zoneName,TXP,Zone name corresponding to this observation.,LocaleDesc,"Text, ValueDescriptor",,,0,0,
 countryName,TXP,Name of the country corresponding to this observation.,LocaleDesc,"Text, ValueDescriptor",,,0,0,
 countryCode,TXP,Name of the country code corresponding to this observation.,LocaleDesc,"Text, ValueDescriptor",,,0,0,
+wardNum,QP,Ward number corresponding to this observation.,LocaleDesc,"Text, ValueDescriptor",,,0,0,

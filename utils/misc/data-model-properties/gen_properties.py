@@ -13,7 +13,9 @@ from pathlib import Path
 import os.path as path
 from tkinter import Tk
 from tkinter import filedialog
-import PySimpleGUI as sg
+import warnings
+warnings.filterwarnings("ignore")
+# import PySimpleGUI as sg
 
 # tk 8.6
 """ Add the property names to ignore list to skip property generation. """
@@ -23,7 +25,7 @@ Tk().withdraw()
 file_dir = filedialog.askopenfilename(title="Select A File")
 dir_home = path.abspath(path.join(os.path.abspath(file_dir), "../../../.."))
 
-with open(dir_home + "/utils/misc/data-model-properties/template.jsonld", "r") as template:
+with open(dir_home + "/misc/data-model-properties/template.jsonld", "r") as template:
     obj = json.load(template)
 del obj["@context"]['skos']
 del obj["@context"]['schema']
@@ -317,7 +319,7 @@ def gen_properties(df):
 
             else:
                 print("@graph missing in  " + csv_label)
-        if item[8] == "1":
+        if item[8] == "1": # BaseSchema
             base_property = re.sub(r'[,\s]', '', item[0])
             domain = item[3]
             range_include = item[4].strip()
@@ -325,7 +327,7 @@ def gen_properties(df):
             jsonld_update(filename, domain, "adex:domainIncludes", "baseSchema")
             jsonld_update(filename, range_include, "adex:rangeIncludes", "baseSchema")
 
-        if item[7] == "1":
+        if item[7] == "1": # OtherSchema
             # try:
             base_property = re.sub(r'[,\s]', '', item[0])
             domain =  item[3]
@@ -342,30 +344,34 @@ if __name__ == "__main__":
 
     val = re.sub(r'[,\s]', '', input("Do you want to add a new Domain (Y/N)\n").upper())
 
-    options = ['Data Model', 'Floating Class']
-    layout = [
-        [sg.Listbox(options, size=(27, len(options)))],
-        [sg.Button('Ok'), sg.Button('Cancel')]
-    ]
-    window = sg.Window('Select an item to add or update ', layout)
-    values = window.read()
-    window.close()
+    # options = ['Data Model', 'Floating Class']
+    # layout = [
+    #     [sg.Listbox(options, size=(27, len(options)))],
+    #     [sg.Button('Ok'), sg.Button('Cancel')]
+    # ]
+    # window = sg.Window('Select an item to add or update ', layout)
+    # values = window.read()
+    # window.close()
+    values = input("Which item do you want to add or update? 'Data Model' or 'Floating Class'?\n")
 
-    if "Data Model" in values[1][0]:
+    if "Data Model" in values:
         domain_name = input("Enter the Domain name (without trailing or inline spaces)\n")
     else:
         domain_name = Path(file_dir).stem
 
+    dir_home = "/home/hp/Documents/ADeX-VOC/agri-voc/"
+    data_models_dir = os.path.join(dir_home, "data-models")
     if val == "Y":
         arr = next(os.walk(dir_home + "/data-models"))
-        if domain_name in arr[1] and "Data Model" in values[1][0]:
+
+        if domain_name in arr[1] and "Data Model" in values:
             print("Domain already exists")
 
-        elif "Floating Class" in values[1][0]:
+        elif "Floating Class" in values:
             print("The Floating Class does not have a Domain.")
 
         else:
-            create_domain(dir_home + "/data-models/classes")
+                create_domain(dir_home + "/data-models/classes")
 
     sub_domain = Path(file_dir).stem
     print("sub_domain ------ ", sub_domain)
@@ -375,7 +381,7 @@ if __name__ == "__main__":
 
     class_path = model_name_dir + "/classes"
     check_dir(class_path)
-    create_classes(class_path, values[1][0])
+    create_classes(class_path, values)
 
     # Fetching the data from csv file
 

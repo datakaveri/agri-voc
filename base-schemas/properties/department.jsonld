@@ -9,29 +9,22 @@
     },
     "@graph": [
         {
-            "@id": "adex:tags",
+            "@id": "adex:department",
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "Comma separated discovery tags associated with an ADEXEntity (resource , resource Group)",
-            "rdfs:label": "tags",
+            "rdfs:comment": "Division or section of the organization corresponding to this observation. Eg. Health, Transport.",
+            "rdfs:label": "department",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Resource",
-                    "adex:requiredProperty": true
+                    "@id": "adex:Model"
                 },
                 {
-                    "@id": "adex:ResourceGroup",
-                    "adex:requiredProperty": true
-                },
-                {
-                    "@id": "adex:Model",
-                    "adex:requiredProperty": true
+                    "@id": "adex:Resource"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@container": "@list",
                     "@id": "adex:Text"
                 }
             ]

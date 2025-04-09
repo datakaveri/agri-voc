@@ -33,6 +33,12 @@
                 },
                 {
                     "@id": "adex:HyperLocalAdvisory"
+                },
+                {
+                    "@id": "adex:Model"
+                },
+                {
+                    "@id": "adex:Resource"
                 }
             ],
             "adex:rangeIncludes": [

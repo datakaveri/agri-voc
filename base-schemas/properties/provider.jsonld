@@ -23,6 +23,10 @@
                 {
                     "@id": "adex:ResourceGroup",
                     "adex:requiredProperty": true
+                },
+                {
+                    "@id": "adex:Model",
+                    "adex:requiredProperty": true
                 }
             ],
             "adex:rangeIncludes": [

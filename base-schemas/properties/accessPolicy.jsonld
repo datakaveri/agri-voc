@@ -18,6 +18,9 @@
             "adex:domainIncludes": [
                 {
                     "@id": "adex:Resource"
+                },
+                {
+                    "@id": "adex:Model"
                 }
             ],
             "adex:rangeIncludes": [

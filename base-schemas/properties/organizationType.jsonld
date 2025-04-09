@@ -8,18 +8,18 @@
     },
     "@graph": [
         {
-            "@id": "adex:districtName",
+            "@id": "adex:organizationType",
             "@type": [
                 "adex:TextProperty"
             ],
-            "rdfs:comment": "Name of the district corresponding to this observation.",
-            "rdfs:label": "districtName",
+            "rdfs:comment": "The type of organization based on its ownership corresponding to this observation. Eg. Private, Public, Academic Institution",
+            "rdfs:label": "organizationType",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:LocaleDesc"
+                    "@id": "adex:Model"
                 },
                 {
-                    "@id": "adex:AddressDesc"
+                    "@id": "adex:Resource"
                 }
             ],
             "adex:rangeIncludes": [
