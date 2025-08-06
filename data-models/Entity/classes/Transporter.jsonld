@@ -13,7 +13,7 @@
                 "rdfs:Class"
             ],
             "@id": "adex:Transporter",
-            "rdfs:comment": "A data model for transporter.",
+            "rdfs:comment": "A data-model for transporter.",
             "rdfs:label": "Transporter",
             "rdfs:isDefinedBy": {
                 "@id": "adex:"
