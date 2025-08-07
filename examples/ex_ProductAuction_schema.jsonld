@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:Weather",
-        "adex:ProductAuction"
+        "adex:ProductAuction",
+	"adex:Schema"
     ],
     "id": "https://agrijson.org/ProductAuction",
     "schema": {
