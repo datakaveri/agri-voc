@@ -1,0 +1,12 @@
+label,type,comment,domainIncludes,rangeIncludes,exactMatch,older_labels,fromOtherSchemas,fromBaseSchema,Reference Link 
+rangeName,TXP,Name of the forest range.,ProductAuction,"Text, ValueDescriptor",,,0,0,
+depotName,TXP,Name of the forest depot.,ProductAuction,"Text, ValueDescriptor",,,0,0,
+productName,TXP,Name of the product being auctioned.,ProductAuction,"Text, ValueDescriptor",,,0,0,
+productType,TXP,Type/category of forest product.,ProductAuction,"Text, ValueDescriptor",,,0,0,
+quantity,QP,Quantity of the product in auction.,ProductAuction,"Number, ValueDescriptor",,,0,0,
+biddingAmount,QP,Amount of highest bid in INR.,ProductAuction,"Number, ValueDescriptor",,,0,0,
+auctionDate,TP,Date of the auction.,ProductAuction,"DateTime, ValueDescriptor",,,0,0,
+divisionName,TXP,Name of the forest division.,ProductAuction,"Text, ValueDescriptor",,,0,0,
+refNumber,TXP,Reference number of the auction entry.,ProductAuction,"Text, ValueDescriptor",,,0,0,
+circleName,TXP,Name of the forest circle.,ProductAuction,"Text, ValueDescriptor",,,0,0,
+lotNumber,TXP,Unique identifier of the lot.,ProductAuction,"Text, ValueDescriptor",,,0,0,
