@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
 	"id": "resource-item-id",
 	"type": [
-		"adex:Weather",
-		"adex:ProductAuction"
+		"adex:ProductAuction",
+		"adex:Resource"
 	],
     "rangeName": "BAJJU",
     "depotName": "BAJJU",
