@@ -25,7 +25,7 @@ Tk().withdraw()
 file_dir = filedialog.askopenfilename(title="Select A File")
 dir_home = path.abspath(path.join(os.path.abspath(file_dir), "../../../.."))
 
-with open(dir_home + "/misc/data-model-properties/template.jsonld", "r") as template:
+with open(dir_home + "/utils/misc/data-model-properties/template.jsonld", "r") as template:
     obj = json.load(template)
 del obj["@context"]['skos']
 del obj["@context"]['schema']
@@ -359,7 +359,7 @@ if __name__ == "__main__":
     else:
         domain_name = Path(file_dir).stem
 
-    dir_home = "/home/hp/Documents/ADeX-VOC/agri-voc/"
+    dir_home = "/home/iudx/Work/gitrepos/agri-voc/"
     data_models_dir = os.path.join(dir_home, "data-models")
     if val == "Y":
         arr = next(os.walk(dir_home + "/data-models"))
