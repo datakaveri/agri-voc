@@ -4,43 +4,44 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:landExtent",
+            "@id": "forest:landExtent",
             "@type": [
-                "adex:QuantitativeProperty"
+                "forest:QuantitativeProperty"
             ],
             "rdfs:comment": "Area of the land corresponding to this observation.",
             "rdfs:label": "landExtent",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:LandParcel"
+                    "@id": "forest:LandParcel"
                 },
                 {
-                    "@id": "adex:AgriMarket"
+                    "@id": "forest:AgriMarket"
                 },
                 {
-                    "@id": "adex:CropCondition"
+                    "@id": "forest:CropCondition"
                 },
                 {
-                    "@id": "adex:AgriAdvisory"
+                    "@id": "forest:AgriAdvisory"
                 },
                 {
-                    "@id": "adex:RecommendedCropVariety"
+                    "@id": "forest:RecommendedCropVariety"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Number"
+                    "@id": "forest:Number"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

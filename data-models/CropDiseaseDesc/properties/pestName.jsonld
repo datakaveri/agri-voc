@@ -4,30 +4,31 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:pestName",
+            "@id": "forest:pestName",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "The name of the organism/pest which has caused the crop disease.",
             "rdfs:label": "pestName",
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:CropDiseaseDesc"
+                    "@id": "forest:CropDiseaseDesc"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ]
         }

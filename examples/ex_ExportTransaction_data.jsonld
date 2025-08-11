@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "adex:ExportTransaction",
-        "adex:Resource"
+        "forest:ExportTransaction",
+        "forest:Resource"
     ],
     "commodityInfo": {
         "commodityVarietyName": "Water Melon",

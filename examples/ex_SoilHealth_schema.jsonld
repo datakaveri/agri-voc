@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:SoilHealth",
-        "adex:Schema"
+        "forest:SoilHealth",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/SoilHealth",
     "schema": {
@@ -165,7 +165,7 @@
                 "type": "number",
                 "description": "Volumetric Water Content (VMC) is the  numerical measure of soil moisture. It is simply the ratio of water volume to soil volume.",
                 "unitCode": "G31",
-                  "unitText": "kilogram per cubic centimetre"
+                "unitText": "kilogram per cubic centimetre"
             },
             "soilClass": {
                 "type": "string",
@@ -175,7 +175,7 @@
                 "type": "number",
                 "description": "The measure of electrical conductivity of the entity corresponding to this observation.",
                 "unitCode": "G43",
-                  "unitText": "microsiemens per metre"
+                "unitText": "microsiemens per metre"
             },
             "validTill": {
                 "type": "string",
@@ -203,7 +203,7 @@
                 "type": "number",
                 "description": "The measure of the acidity or basicity.",
                 "unitCode": "C62",
-                  "unitText": "dimensionless"
+                "unitText": "dimensionless"
             },
             "testCentreID": {
                 "type": "string",
@@ -238,7 +238,7 @@
                     "nitrogen": {
                         "type": "number",
                         "description": "Observed value of Nitrogen composition in the soil.",
-                       "unitCode": "P1",
+                        "unitCode": "P1",
                         "unitText": "Percentage"
                     },
                     "organicCarbon": {

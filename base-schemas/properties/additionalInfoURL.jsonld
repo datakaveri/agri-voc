@@ -5,31 +5,32 @@
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:additionalInfoURL",
+            "@id": "forest:additionalInfoURL",
             "@type": [
-                "adex:Relationship"
+                "forest:Relationship"
             ],
             "rdfs:comment": "URL from which additional information of the subject can be obtained",
             "rdfs:label": "additionalInfoURL",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AccessObjectInfoValue"
+                    "@id": "forest:AccessObjectInfoValue"
                 },
                 {
-                    "@id": "adex:Organization"
+                    "@id": "forest:Organization"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text",
+                    "@id": "forest:Text",
                     "@type": "@id"
                 },
                 {
-                    "@id": "adex:RelationshipValue"
+                    "@id": "forest:RelationshipValue"
                 }
             ]
         }

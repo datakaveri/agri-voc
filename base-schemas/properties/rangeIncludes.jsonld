@@ -7,11 +7,12 @@
         "iudx": "https://voc.iudx.org.in/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:rangeIncludes",
+            "@id": "forest:rangeIncludes",
             "@type": [
                 "rdf:Property"
             ],
@@ -27,7 +28,7 @@
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Class"
+                    "@id": "forest:Class"
                 }
             ],
             "skos:exactmatch": {

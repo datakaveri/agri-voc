@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:AgriAdvisory",
-        "adex:Schema"
+        "forest:AgriAdvisory",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/AgriAdvisory",
     "schema": {

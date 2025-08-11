@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:LandParcel",
-        "adex:Schema"
+        "forest:LandParcel",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/LandParcel",
     "schema": {
@@ -47,13 +47,13 @@
                 "format": "date"
             },
             "waterCoverage": {
-              "description": "The extent of the area covered by water during the irrigation process on a farm.",
-              "type": [
-                "ValueDescriptor"
-              ],
-              "unitCode": "P1",
-              "unitText": "percent",
-              "dataSchema": "iudx:Number"
+                "description": "The extent of the area covered by water during the irrigation process on a farm.",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "unitCode": "P1",
+                "unitText": "percent",
+                "dataSchema": "iudx:Number"
             },
             "location": {
                 "type": "object",

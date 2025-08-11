@@ -4,37 +4,38 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:cropArea",
+            "@id": "forest:cropArea",
             "@type": [
-                "adex:QuantitativeProperty"
+                "forest:QuantitativeProperty"
             ],
             "rdfs:comment": "Area of the agricultural land used for cultivation, i.e, the arable land area.",
             "rdfs:label": "cropArea",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:LandParcel"
+                    "@id": "forest:LandParcel"
                 },
                 {
-                    "@id": "adex:CropCondition"
+                    "@id": "forest:CropCondition"
                 },
                 {
-                    "@id": "adex:Irrigation"
+                    "@id": "forest:Irrigation"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Number"
+                    "@id": "forest:Number"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

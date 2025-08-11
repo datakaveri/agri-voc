@@ -4,34 +4,35 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:soilClass",
+            "@id": "forest:soilClass",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "The soil class may be specified as per the national system of soil classification or customizing the WRB(World Reference Base) codes.",
             "rdfs:label": "soilClass",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:SoilHealth"
+                    "@id": "forest:SoilHealth"
                 },
                 {
-                    "@id": "adex:RecommendedCropVariety"
+                    "@id": "forest:RecommendedCropVariety"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

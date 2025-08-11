@@ -4,82 +4,83 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:observationDateTime",
+            "@id": "forest:observationDateTime",
             "@type": [
-                "adex:TimeProperty"
+                "forest:TimeProperty"
             ],
             "rdfs:comment": "Last reported time of observation.",
             "rdfs:label": "observationDateTime",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:LandParcel"
+                    "@id": "forest:LandParcel"
                 },
                 {
-                    "@id": "adex:Weather"
+                    "@id": "forest:Weather"
                 },
                 {
-                    "@id": "adex:AgriMarket"
+                    "@id": "forest:AgriMarket"
                 },
                 {
-                    "@id": "adex:CropDiseaseDesc"
+                    "@id": "forest:CropDiseaseDesc"
                 },
                 {
-                    "@id": "adex:Common"
+                    "@id": "forest:Common"
                 },
                 {
-                    "@id": "adex:SoilHealth"
+                    "@id": "forest:SoilHealth"
                 },
                 {
-                    "@id": "adex:CropCondition"
+                    "@id": "forest:CropCondition"
                 },
                 {
-                    "@id": "adex:DomesticPriceInfo"
+                    "@id": "forest:DomesticPriceInfo"
                 },
                 {
-                    "@id": "adex:GhgReport"
+                    "@id": "forest:GhgReport"
                 },
                 {
-                    "@id": "adex:ConsentArtifact"
+                    "@id": "forest:ConsentArtifact"
                 },
                 {
-                    "@id": "adex:ConsentHistory"
+                    "@id": "forest:ConsentHistory"
                 },
                 {
-                    "@id": "adex:AgriAdvisory"
+                    "@id": "forest:AgriAdvisory"
                 },
                 {
-                    "@id": "adex:HyperLocalAdvisory"
+                    "@id": "forest:HyperLocalAdvisory"
                 },
                 {
-                    "@id": "adex:CodeSystem"
+                    "@id": "forest:CodeSystem"
                 },
                 {
-                    "@id": "adex:ValueSet"
+                    "@id": "forest:ValueSet"
                 },
                 {
-                    "@id": "adex:Irrigation"
+                    "@id": "forest:Irrigation"
                 },
                 {
-                    "@id": "adex:PowerDistribution"
+                    "@id": "forest:PowerDistribution"
                 },
                 {
-                    "@id": "adex:Commons"
+                    "@id": "forest:Commons"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:DateTime"
+                    "@id": "forest:DateTime"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

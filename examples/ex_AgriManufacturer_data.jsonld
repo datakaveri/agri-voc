@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "adex:AgriManufacturer",
-        "adex:Resource"
+        "forest:AgriManufacturer",
+        "forest:Resource"
     ],
     "fssaiInfo": {
         "certificateNumber": "FS7235632",

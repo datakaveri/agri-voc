@@ -4,40 +4,41 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:modelInfo",
+            "@id": "forest:modelInfo",
             "@type": [
-                "adex:StructuredProperty"
+                "forest:StructuredProperty"
             ],
             "rdfs:comment": "The make/model information of the vehicle corresponding to this observation.",
             "rdfs:label": "modelInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:OtherAgroChemical"
+                    "@id": "forest:OtherAgroChemical"
                 },
                 {
-                    "@id": "adex:Pesticide"
+                    "@id": "forest:Pesticide"
                 },
                 {
-                    "@id": "adex:Fertilizer"
+                    "@id": "forest:Fertilizer"
                 },
                 {
-                    "@id": "adex:AgriMachinery"
+                    "@id": "forest:AgriMachinery"
                 },
                 {
-                    "@id": "adex:Drone"
+                    "@id": "forest:Drone"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:ModelDesc"
+                    "@id": "forest:ModelDesc"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

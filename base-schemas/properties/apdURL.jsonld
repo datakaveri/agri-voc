@@ -5,28 +5,29 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:apdURL",
+            "@id": "forest:apdURL",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "URL pointing to the Access Policy Decision (APD) for an individual Resource.",
             "rdfs:label": "apdURL",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Resource"
+                    "@id": "forest:Resource"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

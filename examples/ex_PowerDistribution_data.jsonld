@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org",
     "id": "resource-item-id",
     "type": [
-        "adex:PowerDistribution",
-        "adex:Resource"
+        "forest:PowerDistribution",
+        "forest:Resource"
     ],
     "cityName": "KARIMNAGAR",
     "powerDistributionDivision": "KARIMNAGAR RURAL",

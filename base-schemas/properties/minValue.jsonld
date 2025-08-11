@@ -5,24 +5,25 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:minValue",
+            "@id": "forest:minValue",
             "@type": [
-                "adex:QuantitativeProperty"
+                "forest:QuantitativeProperty"
             ],
             "rdfs:comment": "The lower value of a quantity/property.",
             "rdfs:label": "minValue",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Number"
+                    "@id": "forest:Number"
                 }
             ],
             "skos:exactMatch": {

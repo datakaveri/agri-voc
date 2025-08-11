@@ -4,73 +4,74 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:localeInfo",
+            "@id": "forest:localeInfo",
             "@type": [
-                "adex:StructuredProperty"
+                "forest:StructuredProperty"
             ],
             "rdfs:comment": "Locale information corresponding to this observation.",
             "rdfs:label": "localeInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:LandParcel"
+                    "@id": "forest:LandParcel"
                 },
                 {
-                    "@id": "adex:Farmer"
+                    "@id": "forest:Farmer"
                 },
                 {
-                    "@id": "adex:Weather"
+                    "@id": "forest:Weather"
                 },
                 {
-                    "@id": "adex:AgriMarket"
+                    "@id": "forest:AgriMarket"
                 },
                 {
-                    "@id": "adex:AgriBusiness"
+                    "@id": "forest:AgriBusiness"
                 },
                 {
-                    "@id": "adex:CropCondition"
+                    "@id": "forest:CropCondition"
                 },
                 {
-                    "@id": "adex:AgriAdvisory"
+                    "@id": "forest:AgriAdvisory"
                 },
                 {
-                    "@id": "adex:AgriMachinery"
+                    "@id": "forest:AgriMachinery"
                 },
                 {
-                    "@id": "adex:Drone"
+                    "@id": "forest:Drone"
                 },
                 {
-                    "@id": "adex:DomesticPriceInfo"
+                    "@id": "forest:DomesticPriceInfo"
                 },
                 {
-                    "@id": "adex:PublicSchemes"
+                    "@id": "forest:PublicSchemes"
                 },
                 {
-                    "@id": "adex:Seed"
+                    "@id": "forest:Seed"
                 },
                 {
-                    "@id": "adex:HyperLocalAdvisory"
+                    "@id": "forest:HyperLocalAdvisory"
                 },
                 {
-                    "@id": "adex:RecommendedCropVariety"
+                    "@id": "forest:RecommendedCropVariety"
                 },
                 {
-                    "@id": "adex:SoilHealth"
+                    "@id": "forest:SoilHealth"
                 },
                 {
-                    "@id": "adex:Irrigation"
+                    "@id": "forest:Irrigation"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:LocaleDesc"
+                    "@id": "forest:LocaleDesc"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

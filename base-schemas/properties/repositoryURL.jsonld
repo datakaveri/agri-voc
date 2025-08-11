@@ -8,24 +8,25 @@
         "geojson": "https://purl.org/geojson/vocab#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:repositoryURL",
+            "@id": "forest:repositoryURL",
             "@type": [
-                "adex:Relationship"
+                "forest:Relationship"
             ],
             "rdfs:comment": "A URL pointing to a repository containing additional resources or code pertaining to this entity.",
             "rdfs:label": "repositoryURL",
             "adex:domainIncludes": [],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text",
+                    "@id": "forest:Text",
                     "@type": "@id"
                 },
                 {
-                    "@id": "adex:RelationshipValue"
+                    "@id": "forest:RelationshipValue"
                 }
             ]
         }

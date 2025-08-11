@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:Farmer",
-        "adex:Schema"
+        "forest:Farmer",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/Farmer",
     "schema": {

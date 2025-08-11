@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:Device",
-        "adex:Schema"
+        "forest:Device",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/Device",
     "schema": {

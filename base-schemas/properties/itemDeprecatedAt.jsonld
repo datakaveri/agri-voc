@@ -6,24 +6,25 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:itemDeprecatedAt",
+            "@id": "forest:itemDeprecatedAt",
             "@type": [
-                "adex:TimeProperty"
+                "forest:TimeProperty"
             ],
             "rdfs:comment": "DateTime of deprecation of a catalogue item.",
             "rdfs:label": "itemDeprecatedAt",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ADEXEntity"
+                    "@id": "forest:ADEXEntity"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:DateTime"
+                    "@id": "forest:DateTime"
                 }
             ]
         }

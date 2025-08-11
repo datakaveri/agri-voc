@@ -5,28 +5,29 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:resourceType",
+            "@id": "forest:resourceType",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "Type of resource. ENUM: [MESSAGESTREAM, DATASET, FILE, GSLAYER, MEDIASTREAM].",
             "rdfs:label": "resourceType",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ResourceGroup",
+                    "@id": "forest:ResourceGroup",
                     "adex:requiredProperty": true
                 },
                 {
-                    "@id": "adex:Resource"
+                    "@id": "forest:Resource"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 }
             ]
         }

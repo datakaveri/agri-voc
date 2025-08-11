@@ -4,31 +4,32 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:insurancePremium",
+            "@id": "forest:insurancePremium",
             "@type": [
-                "adex:QuantitativeProperty"
+                "forest:QuantitativeProperty"
             ],
             "rdfs:comment": "The amount that is paid by the individual or business for availing the insurance policy.",
             "rdfs:label": "insurancePremium",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:CropInsurance"
+                    "@id": "forest:CropInsurance"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Number"
+                    "@id": "forest:Number"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

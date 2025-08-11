@@ -4,34 +4,35 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:registrationDate",
+            "@id": "forest:registrationDate",
             "@type": [
-                "adex:TimeProperty"
+                "forest:TimeProperty"
             ],
             "rdfs:comment": "The date on which a particular item or entity becomes officially recognized, authorized or approved according to the relevant regulations, procedures or requirements.",
             "rdfs:label": "registrationDate",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AgriMachinery"
+                    "@id": "forest:AgriMachinery"
                 },
                 {
-                    "@id": "adex:Drone"
+                    "@id": "forest:Drone"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

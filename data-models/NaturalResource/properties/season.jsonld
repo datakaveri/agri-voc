@@ -4,46 +4,47 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:season",
+            "@id": "forest:season",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "Represents distinct period of the year characterized by particular weather conditions, activities, or events.",
             "rdfs:label": "season",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Weather"
+                    "@id": "forest:Weather"
                 },
                 {
-                    "@id": "adex:Seed"
+                    "@id": "forest:Seed"
                 },
                 {
-                    "@id": "adex:AgriAdvisory"
+                    "@id": "forest:AgriAdvisory"
                 },
                 {
-                    "@id": "adex:HyperLocalAdvisory"
+                    "@id": "forest:HyperLocalAdvisory"
                 },
                 {
-                    "@id": "adex:Irrigation"
+                    "@id": "forest:Irrigation"
                 },
                 {
-                    "@id": "adex:LandParcel"
+                    "@id": "forest:LandParcel"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

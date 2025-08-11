@@ -5,27 +5,28 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:accessPolicy",
+            "@id": "forest:accessPolicy",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "Defines the access policy for resources, it can take values: [OPEN, SECURE, PII]. OPEN implies the resource needs no explicit consent from the data provider or data owner. SECURE implies the resource needs an explicit consent from the data provider or data owner. PII implies that the resource has personal information and a consent artifact needs to be signed for accessing it.",
             "rdfs:label": "accessPolicy",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Resource"
+                    "@id": "forest:Resource"
                 },
                 {
-                    "@id": "adex:Model"
+                    "@id": "forest:Model"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 }
             ]
         }

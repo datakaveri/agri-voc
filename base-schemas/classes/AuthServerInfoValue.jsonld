@@ -4,11 +4,12 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:AuthServerInfoValue",
+            "@id": "forest:AuthServerInfoValue",
             "@type": [
                 "owl:Class",
                 "rdfs:Class"
@@ -16,7 +17,7 @@
             "rdfs:comment": "Describes information about the ADEX Authorization Server for a given resource.",
             "rdfs:label": "AuthServerInfoValue",
             "rdfs:subClassOf": {
-                "@id": "adex:StructuredValue"
+                "@id": "forest:StructuredValue"
             }
         }
     ]

@@ -5,31 +5,32 @@
         "iudx": "https://voc.iudx.org.in/",
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:dataAccessPurposes",
+            "@id": "forest:dataAccessPurposes",
             "@type": [
-                "adex:Relationship"
+                "forest:Relationship"
             ],
             "rdfs:comment": "Describes the various purposes for which the data can be accessed.",
             "rdfs:label": "dataAccessPurposes",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ResourceGroup"
+                    "@id": "forest:ResourceGroup"
                 },
                 {
-                    "@id": "adex:Resource"
+                    "@id": "forest:Resource"
                 }
             ],
             "adex:rangeIncludes": [
                 {
                     "@container": "@list",
-                    "@id": "adex:Object"
+                    "@id": "forest:Object"
                 },
                 {
-                    "@id": "adex:RelationshipValue"
+                    "@id": "forest:RelationshipValue"
                 }
             ]
         }

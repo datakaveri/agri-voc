@@ -4,31 +4,32 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:nutrientInfo",
+            "@id": "forest:nutrientInfo",
             "@type": [
-                "adex:StructuredProperty"
+                "forest:StructuredProperty"
             ],
             "rdfs:comment": "The chemical elements and compounds that are necessary for plant growth, reproduction, metabolism.",
             "rdfs:label": "nutrientInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:SoilHealth"
+                    "@id": "forest:SoilHealth"
                 },
                 {
-                    "@id": "adex:Irrigation"
+                    "@id": "forest:Irrigation"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:NutrientDesc"
+                    "@id": "forest:NutrientDesc"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

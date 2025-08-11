@@ -8,27 +8,28 @@
         "iudx": "https://voc.iudx.org.in/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:geometry",
+            "@id": "forest:geometry",
             "@type": [
-                "adex:GeoProperty"
+                "forest:GeoProperty"
             ],
             "rdfs:comment": "Geometry property in a GeoJSON object",
             "rdfs:label": "geometry",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Feature"
+                    "@id": "forest:Feature"
                 },
                 {
-                    "@id": "adex:Place"
+                    "@id": "forest:Place"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:GeoJSONGeometry"
+                    "@id": "forest:GeoJSONGeometry"
                 }
             ],
             "skos:exactMatch": {

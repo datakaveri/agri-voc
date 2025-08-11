@@ -4,37 +4,38 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:totalCount",
+            "@id": "forest:totalCount",
             "@type": [
-                "adex:QuantitativeProperty"
+                "forest:QuantitativeProperty"
             ],
             "rdfs:comment": "Total number of entities corresponding to this observation.",
             "rdfs:label": "totalCount",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:FarmerCollective"
+                    "@id": "forest:FarmerCollective"
                 },
                 {
-                    "@id": "adex:CodeSystem"
+                    "@id": "forest:CodeSystem"
                 },
                 {
-                    "@id": "adex:ValueSet"
+                    "@id": "forest:ValueSet"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Number"
+                    "@id": "forest:Number"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

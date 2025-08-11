@@ -4,30 +4,31 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:deviceIdentityNumber",
+            "@id": "forest:deviceIdentityNumber",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "The unique 15 digit International Mobile Equipment Identity (IMEI) number of the device corresponding to this observation.",
             "rdfs:label": "deviceIdentityNumber",
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Device"
+                    "@id": "forest:Device"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ]
         }

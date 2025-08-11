@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:ValueSet",
-        "adex:Schema"
+        "forest:ValueSet",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/ValueSet",
     "schema": {

@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org",
     "id": "resource-item-id",
     "type": [
-        "adex:PublicScheme",
-        "adex:Resource"
+        "forest:PublicScheme",
+        "forest:Resource"
     ],
     "schemeID": "MSP1960",
     "schemeName": "Minimum Support Price(MSP)",

@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:Drone",
-        "adex:Schema"
+        "forest:Drone",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/Drone",
     "schema": {

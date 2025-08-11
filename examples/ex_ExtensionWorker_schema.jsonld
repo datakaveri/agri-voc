@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:ExtensionWorker",
-        "adex:Schema"
+        "forest:ExtensionWorker",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/ExtensionWorker",
     "schema": {

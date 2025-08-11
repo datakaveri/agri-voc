@@ -4,30 +4,31 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:communeName",
+            "@id": "forest:communeName",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "The name of an agricultural cooperative or farmers' group, which is an organized entity formed by a group of farmers who come together for collective action, mutual benefit, and shared goals within the agricultural sector.",
             "rdfs:label": "communeName",
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:FarmerCollective"
+                    "@id": "forest:FarmerCollective"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ]
         }

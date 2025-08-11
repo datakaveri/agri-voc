@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:CodeSystem",
-        "adex:Schema"
+        "forest:CodeSystem",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/CodeSystem",
     "schema": {

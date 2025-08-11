@@ -5,25 +5,26 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:resourceServerRegURL",
+            "@id": "forest:resourceServerRegURL",
             "@type": [
-                "adex:Relationship"
+                "forest:Relationship"
             ],
             "rdfs:comment": "The registered URL for the Resource Server.",
             "rdfs:label": "resourceServerRegURL",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ResourceServer",
+                    "@id": "forest:ResourceServer",
                     "adex:requiredProperty": true
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text",
+                    "@id": "forest:Text",
                     "@type": "@id"
                 }
             ]

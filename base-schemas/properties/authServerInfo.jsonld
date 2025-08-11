@@ -5,28 +5,29 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:authServerInfo",
+            "@id": "forest:authServerInfo",
             "@type": [
-                "adex:StructuredProperty"
+                "forest:StructuredProperty"
             ],
             "rdfs:comment": "Information about the Authorization Server used for a given resource.",
             "rdfs:label": "authServerInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Resource"
+                    "@id": "forest:Resource"
                 },
                 {
-                    "@id": "adex:ResourceGroup",
+                    "@id": "forest:ResourceGroup",
                     "adex:requiredProperty": true
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:AuthServerInfoValue"
+                    "@id": "forest:AuthServerInfoValue"
                 }
             ]
         }

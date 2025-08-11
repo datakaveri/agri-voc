@@ -6,27 +6,28 @@
         "iudx": "https://voc.iudx.org.in/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:dataSample",
+            "@id": "forest:dataSample",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "Stringified sample object of the resource",
             "rdfs:label": "dataSample",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ResourceGroup"
+                    "@id": "forest:ResourceGroup"
                 },
                 {
-                    "@id": "adex:Resource"
+                    "@id": "forest:Resource"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 }
             ]
         }

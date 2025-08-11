@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "adex:FarmerCollective",
-        "adex:Resource"
+        "forest:FarmerCollective",
+        "forest:Resource"
     ],
     "communeName": "Organic Valley",
     "legalStatus": "cooperativeSociety",

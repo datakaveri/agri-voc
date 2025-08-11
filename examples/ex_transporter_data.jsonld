@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "adex:Transporter",
-        "adex:Resource"
+        "forest:Transporter",
+        "forest:Resource"
     ],
     "name": "Dimitriv",
     "phone": "9283294XXX",

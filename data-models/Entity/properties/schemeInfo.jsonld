@@ -4,28 +4,29 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:schemeInfo",
+            "@id": "forest:schemeInfo",
             "@type": [
-                "adex:StructuredProperty"
+                "forest:StructuredProperty"
             ],
             "rdfs:comment": "Farmer welfare schemes information corresponding to this observation.",
             "rdfs:label": "schemeInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:CropInsurance"
+                    "@id": "forest:CropInsurance"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:PublicSchemes"
+                    "@id": "forest:PublicSchemes"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

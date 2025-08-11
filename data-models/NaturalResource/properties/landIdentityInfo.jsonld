@@ -4,49 +4,50 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:landIdentityInfo",
+            "@id": "forest:landIdentityInfo",
             "@type": [
-                "adex:StructuredProperty"
+                "forest:StructuredProperty"
             ],
             "rdfs:comment": "The unique land identification information corresponding to this observation.",
             "rdfs:label": "landIdentityInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:LandParcel"
+                    "@id": "forest:LandParcel"
                 },
                 {
-                    "@id": "adex:CropInsurance"
+                    "@id": "forest:CropInsurance"
                 },
                 {
-                    "@id": "adex:CropCondition"
+                    "@id": "forest:CropCondition"
                 },
                 {
-                    "@id": "adex:SoilHealth"
+                    "@id": "forest:SoilHealth"
                 },
                 {
-                    "@id": "adex:Seed"
+                    "@id": "forest:Seed"
                 },
                 {
-                    "@id": "adex:HyperLocalAdvisory"
+                    "@id": "forest:HyperLocalAdvisory"
                 },
                 {
-                    "@id": "adex:AgriAdvisory"
+                    "@id": "forest:AgriAdvisory"
                 },
                 {
-                    "@id": "adex:RecommendedCropVariety"
+                    "@id": "forest:RecommendedCropVariety"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:LandIdentityDesc"
+                    "@id": "forest:LandIdentityDesc"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

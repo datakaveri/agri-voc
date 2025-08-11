@@ -4,30 +4,31 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:offsetValue",
+            "@id": "forest:offsetValue",
             "@type": [
-                "adex:QuantitativeProperty"
+                "forest:QuantitativeProperty"
             ],
             "rdfs:comment": "The offset value represents a measurable decrease or elimination of greenhouse gas emissions, specifically carbon dioxide (CO2) or its equivalents, permitted or asserted during the reporting period corresponding to this observation.",
             "rdfs:label": "offsetValue",
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:GhgReport"
+                    "@id": "forest:GhgReport"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Number"
+                    "@id": "forest:Number"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ]
         }

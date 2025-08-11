@@ -4,30 +4,31 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:modelURL",
+            "@id": "forest:modelURL",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "URL providing further information of a specific model associated with an entity, e.g., sensor, device etc.",
             "rdfs:label": "modelURL",
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ModelDesc"
+                    "@id": "forest:ModelDesc"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ]
         }

@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:Irrigation",
-        "adex:Schema"
+        "forest:Irrigation",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/Irrigation",
     "schema": {

@@ -8,30 +8,30 @@
     },
     "@graph": [
         {
-            "@id": "adex:nextAdvisoryDate",
+            "@id": "forest:nextAdvisoryDate",
             "@type": [
-                "adex:TimeProperty"
+                "forest:TimeProperty"
             ],
             "rdfs:comment": "Last reported time of observation.",
             "rdfs:label": "nextAdvisoryDate",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AgriAdvisory"
+                    "@id": "forest:AgriAdvisory"
                 },
                 {
-                    "@id": "adex:HyperLocalAdvisory"
+                    "@id": "forest:HyperLocalAdvisory"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

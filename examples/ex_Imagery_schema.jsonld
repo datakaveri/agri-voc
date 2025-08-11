@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:Imagery",
-        "adex:Schema"
+        "forest:Imagery",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/Imagery",
     "schema": {

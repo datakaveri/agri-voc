@@ -4,34 +4,35 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:commodityInfo",
+            "@id": "forest:commodityInfo",
             "@type": [
-                "adex:StructuredProperty"
+                "forest:StructuredProperty"
             ],
             "rdfs:comment": "The information about the agricultural produce/commodity associated with the AMC/market corresponding to this observation.",
             "rdfs:label": "commodityInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:AgriMarket"
+                    "@id": "forest:AgriMarket"
                 },
                 {
-                    "@id": "adex:TransportCost"
+                    "@id": "forest:TransportCost"
                 },
                 {
-                    "@id": "adex:ExportTransaction"
+                    "@id": "forest:ExportTransaction"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:DomesticPriceInfo"
+                    "@id": "forest:DomesticPriceInfo"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

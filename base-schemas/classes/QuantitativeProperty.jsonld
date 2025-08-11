@@ -4,11 +4,12 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:QuantitativeProperty",
+            "@id": "forest:QuantitativeProperty",
             "@type": [
                 "owl:Class",
                 "rdfs:Class"
@@ -16,7 +17,7 @@
             "rdfs:comment": "Class of all Quantitative properties in ADEX. The range of Quantitative properties are objects describing the associated values as well as meta-information associated with the values. Typically, the value of quantiative property isa numeric value. However, in some cases, it may be a string that has to be interpreted as a number.",
             "rdfs:label": "QuantitativeProperty",
             "rdfs:subClassOf": {
-                "@id": "adex:StructuredProperty"
+                "@id": "forest:StructuredProperty"
             }
         }
     ]

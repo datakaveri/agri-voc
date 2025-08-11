@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:TransportCost",
-        "adex:Schema"
+        "forest:TransportCost",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/TransportCost",
     "schema": {

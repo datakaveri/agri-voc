@@ -8,27 +8,28 @@
         "iudx": "https://voc.iudx.org.in/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:associatedEntity",
+            "@id": "forest:associatedEntity",
             "@type": [
-                "adex:Relationship"
+                "forest:Relationship"
             ],
             "rdfs:comment": "ID of the associated entity.",
             "rdfs:label": "associatedEntity",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ADEXEntity"
+                    "@id": "forest:ADEXEntity"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:RelationshipValue"
+                    "@id": "forest:RelationshipValue"
                 }
             ]
         }

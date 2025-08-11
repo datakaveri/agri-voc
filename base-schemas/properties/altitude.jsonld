@@ -8,30 +8,31 @@
         "schema": "http://schema.org/",
         "iudx": "https://voc.iudx.org.in/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:altitude",
+            "@id": "forest:altitude",
             "@type": [
-                "adex:GeoProperty"
+                "forest:GeoProperty"
             ],
             "rdfs:comment": "The vertical distance or height above a specific reference point, usually the Mean Sea Level (MSL) or a defined datum such as WGS 84 CRS (https://en.wikipedia.org/wiki/World_Geodetic_System).",
             "rdfs:label": "altitude",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:GeoCoordinates"
+                    "@id": "forest:GeoCoordinates"
                 },
                 {
-                    "@id": "adex:Place"
+                    "@id": "forest:Place"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Number"
+                    "@id": "forest:Number"
                 },
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 }
             ]
         }

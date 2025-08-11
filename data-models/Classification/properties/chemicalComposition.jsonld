@@ -4,38 +4,39 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:chemicalComposition",
+            "@id": "forest:chemicalComposition",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "The ordered array comprising the chemical/ organic composition of the fertilizer added to the soil",
             "rdfs:label": "chemicalComposition",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:OtherAgroChemical"
+                    "@id": "forest:OtherAgroChemical"
                 },
                 {
-                    "@id": "adex:Pesticide"
+                    "@id": "forest:Pesticide"
                 },
                 {
-                    "@id": "adex:Fertilizer"
+                    "@id": "forest:Fertilizer"
                 }
             ],
             "adex:rangeIncludes": [
                 {
                     "@container": "@list",
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]

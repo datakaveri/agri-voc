@@ -4,27 +4,28 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:consigneeInfo",
+            "@id": "forest:consigneeInfo",
             "@type": [
-                "adex:StructuredProperty"
+                "forest:StructuredProperty"
             ],
             "rdfs:comment": "Details of the consignee receiving the shipment corresponding to this observation.",
             "rdfs:label": "consigneeInfo",
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:ExportTransaction"
+                    "@id": "forest:ExportTransaction"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:PersonnelDesc"
+                    "@id": "forest:PersonnelDesc"
                 }
             ]
         }

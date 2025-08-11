@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:AgriResearcher",
-        "adex:Schema"
+        "forest:AgriResearcher",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/AgriResearcher",
     "schema": {

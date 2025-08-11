@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:AgriBusiness",
-        "adex:Schema"
+        "forest:AgriBusiness",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/AgriBusiness",
     "schema": {

@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:RecommendedCropVariety",
-        "adex:Schema"
+        "forest:RecommendedCropVariety",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/RecommendedCropVariety",
     "schema": {

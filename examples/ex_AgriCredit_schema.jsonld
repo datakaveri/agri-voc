@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "adex:AgriCredit",
-        "adex:Schema"
+        "forest:AgriCredit",
+        "forest:Schema"
     ],
     "id": "https://agrijson.org/AgriCredit",
     "schema": {

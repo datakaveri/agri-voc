@@ -8,61 +8,62 @@
         "iudx": "https://voc.iudx.org.in/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "geojson": "https://purl.org/geojson/vocab#",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:name",
+            "@id": "forest:name",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "Name of the entity.",
             "rdfs:label": "name",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Place"
+                    "@id": "forest:Place"
                 },
                 {
-                    "@id": "adex:Organization"
+                    "@id": "forest:Organization"
                 },
                 {
-                    "@id": "adex:RelationshipValue"
+                    "@id": "forest:RelationshipValue"
                 },
                 {
-                    "@id": "adex:ADEXEntity",
+                    "@id": "forest:ADEXEntity",
                     "adex:requiredProperty": true
                 },
                 {
-                    "@id": "adex:PersonnelDesc"
+                    "@id": "forest:PersonnelDesc"
                 },
                 {
-                    "@id": "adex:Version"
+                    "@id": "forest:Version"
                 },
                 {
-                    "@id": "adex:Transporter"
+                    "@id": "forest:Transporter"
                 },
                 {
-                    "@id": "adex:TransportCost"
+                    "@id": "forest:TransportCost"
                 },
                 {
-                    "@id": "adex:AgriExpert"
+                    "@id": "forest:AgriExpert"
                 },
                 {
-                    "@id": "adex:ExtensionWorker"
+                    "@id": "forest:ExtensionWorker"
                 },
                 {
-                    "@id": "adex:AgriResearcher"
+                    "@id": "forest:AgriResearcher"
                 },
                 {
-                    "@id": "adex:AgriManufacturer"
+                    "@id": "forest:AgriManufacturer"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "skos:exactMatch": {

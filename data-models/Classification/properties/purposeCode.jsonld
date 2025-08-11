@@ -4,40 +4,41 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/"
+        "adex": "https://agrijson.org/",
+        "forest": "https://voc.forest-stack.iudx.io/"
     },
     "@graph": [
         {
-            "@id": "adex:purposeCode",
+            "@id": "forest:purposeCode",
             "@type": [
-                "adex:TextProperty"
+                "forest:TextProperty"
             ],
             "rdfs:comment": "The unique code representing the purpose of entity or service corresponding to this observation.",
             "rdfs:label": "purposeCode",
             "adex:domainIncludes": [
                 {
-                    "@id": "adex:Drone"
+                    "@id": "forest:Drone"
                 },
                 {
-                    "@id": "adex:ConsentArtifact"
+                    "@id": "forest:ConsentArtifact"
                 },
                 {
-                    "@id": "adex:OtherAgroChemical"
+                    "@id": "forest:OtherAgroChemical"
                 },
                 {
-                    "@id": "adex:ConsentHistory"
+                    "@id": "forest:ConsentHistory"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "adex:Text"
+                    "@id": "forest:Text"
                 },
                 {
-                    "@id": "adex:ValueDescriptor"
+                    "@id": "forest:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "adex:"
+                "@id": "forest:"
             }
         }
     ]
