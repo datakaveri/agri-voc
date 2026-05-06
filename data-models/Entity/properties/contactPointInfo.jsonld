@@ -4,53 +4,52 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:contactPointInfo",
+            "@id": "adex:contactPointInfo",
             "@type": [
-                "forest:StructuredProperty"
+                "adex:StructuredProperty"
             ],
             "rdfs:comment": "Contact point information of a business/service corresponding to this observation",
             "rdfs:label": "contactPointInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:Farmer"
+                    "@id": "adex:Farmer"
                 },
                 {
-                    "@id": "forest:FarmerCollective"
+                    "@id": "adex:FarmerCollective"
                 },
                 {
-                    "@id": "forest:AgriMarket"
+                    "@id": "adex:AgriMarket"
                 },
                 {
-                    "@id": "forest:AgriBusiness"
+                    "@id": "adex:AgriBusiness"
                 },
                 {
-                    "@id": "forest:Transporter"
+                    "@id": "adex:Transporter"
                 },
                 {
-                    "@id": "forest:TransportCost"
+                    "@id": "adex:TransportCost"
                 },
                 {
-                    "@id": "forest:Imagery"
+                    "@id": "adex:Imagery"
                 },
                 {
-                    "@id": "forest:AgriAdvisory"
+                    "@id": "adex:AgriAdvisory"
                 },
                 {
-                    "@id": "forest:AgriManufacturer"
+                    "@id": "adex:AgriManufacturer"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:ContactPointDesc"
+                    "@id": "adex:ContactPointDesc"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

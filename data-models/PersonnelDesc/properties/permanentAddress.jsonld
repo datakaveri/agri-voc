@@ -4,44 +4,43 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:permanentAddress",
+            "@id": "adex:permanentAddress",
             "@type": [
-                "forest:StructuredProperty"
+                "adex:StructuredProperty"
             ],
             "rdfs:comment": "Permanent address corresponding to this observation",
             "rdfs:label": "permanentAddress",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:PersonnelDesc"
+                    "@id": "adex:PersonnelDesc"
                 },
                 {
-                    "@id": "forest:Transporter"
+                    "@id": "adex:Transporter"
                 },
                 {
-                    "@id": "forest:AgriExpert"
+                    "@id": "adex:AgriExpert"
                 },
                 {
-                    "@id": "forest:ExtensionWorker"
+                    "@id": "adex:ExtensionWorker"
                 },
                 {
-                    "@id": "forest:AgriResearcher"
+                    "@id": "adex:AgriResearcher"
                 },
                 {
-                    "@id": "forest:AgriManufacturer"
+                    "@id": "adex:AgriManufacturer"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:AddressDesc"
+                    "@id": "adex:AddressDesc"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

@@ -4,31 +4,30 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:hasMoistureStress",
+            "@id": "adex:hasMoistureStress",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Whether the crop is under moisture stress or not. True - is the crop is under moisture stress, False - if it is not.",
             "rdfs:label": "hasMoistureStress",
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:CropCondition"
+                    "@id": "adex:CropCondition"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Boolean"
+                    "@id": "adex:Boolean"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ]
         }

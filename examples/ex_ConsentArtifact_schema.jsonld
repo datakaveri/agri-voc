@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:ConsentArtifact",
-        "forest:Schema"
+        "adex:ConsentArtifact",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/ConsentArtifact",
     "schema": {

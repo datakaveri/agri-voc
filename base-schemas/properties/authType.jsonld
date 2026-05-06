@@ -5,25 +5,24 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:authType",
+            "@id": "adex:authType",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Identification of the auth scheme used for a given resource.  ENUM: [ADEXAUTH].",
             "rdfs:label": "authType",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:AuthServerInfoValue"
+                    "@id": "adex:AuthServerInfoValue"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 }
             ]
         }

@@ -8,7 +8,7 @@
     },
     "@graph": [
         {
-            "@id": "forest:requiredProperty",
+            "@id": "adex:requiredProperty",
             "@type": [
                 "rdf:Property"
             ],
@@ -21,7 +21,7 @@
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Boolean"
+                    "@id": "adex:Boolean"
                 }
             ],
             "skos:exactmatch": {

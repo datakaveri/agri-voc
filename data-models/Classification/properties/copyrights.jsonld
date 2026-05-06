@@ -4,35 +4,34 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:copyrights",
+            "@id": "adex:copyrights",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Copyrights are legal protections that grant creators exclusive rights to control the use and distribution of their original work.",
             "rdfs:label": "copyrights",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:CodeSystem"
+                    "@id": "adex:CodeSystem"
                 },
                 {
-                    "@id": "forest:ValueSet"
+                    "@id": "adex:ValueSet"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

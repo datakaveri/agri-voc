@@ -4,12 +4,11 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:Class",
+            "@id": "adex:Class",
             "@type": [
                 "rdfs:Class"
             ],
@@ -22,7 +21,7 @@
                 "@id": "rdfs:Class"
             },
             "rdfs:subClassOf": {
-                "@id": "forest:Intangible"
+                "@id": "adex:Intangible"
             }
         }
     ]

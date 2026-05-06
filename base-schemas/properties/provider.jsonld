@@ -5,38 +5,37 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:provider",
+            "@id": "adex:provider",
             "@type": [
-                "forest:Relationship"
+                "adex:Relationship"
             ],
             "rdfs:comment": "IRI pointing to the provider entity associated with the given catalogue item",
             "rdfs:label": "provider",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:Resource",
+                    "@id": "adex:Resource",
                     "adex:requiredProperty": true
                 },
                 {
-                    "@id": "forest:ResourceGroup",
+                    "@id": "adex:ResourceGroup",
                     "adex:requiredProperty": true
                 },
                 {
-                    "@id": "forest:Model",
+                    "@id": "adex:Model",
                     "adex:requiredProperty": true
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text",
+                    "@id": "adex:Text",
                     "@type": "@id"
                 },
                 {
-                    "@id": "forest:RelationshipValue"
+                    "@id": "adex:RelationshipValue"
                 }
             ]
         }

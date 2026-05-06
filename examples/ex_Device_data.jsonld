@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "forest:Device",
-        "forest:Resource"
+        "adex:Device",
+        "adex:Resource"
     ],
     "deviceID": "SBP_GSR1_LT70",
     "deviceName": "APEX_WATER",

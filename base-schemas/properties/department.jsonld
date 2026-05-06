@@ -5,28 +5,27 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:department",
+            "@id": "adex:department",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Division or section of the organization corresponding to this observation. Eg. Health, Transport.",
             "rdfs:label": "department",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:Model"
+                    "@id": "adex:Model"
                 },
                 {
-                    "@id": "forest:Resource"
+                    "@id": "adex:Resource"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 }
             ]
         }

@@ -4,48 +4,47 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:areaServed",
+            "@id": "adex:areaServed",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Area served by the entity or a service.",
             "rdfs:label": "areaServed",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:ModelDesc"
+                    "@id": "adex:ModelDesc"
                 },
                 {
-                    "@id": "forest:FarmerCollective"
+                    "@id": "adex:FarmerCollective"
                 },
                 {
-                    "@id": "forest:AgriMarket"
+                    "@id": "adex:AgriMarket"
                 },
                 {
-                    "@id": "forest:AgriBusiness"
+                    "@id": "adex:AgriBusiness"
                 },
                 {
-                    "@id": "forest:Transporter"
+                    "@id": "adex:Transporter"
                 },
                 {
-                    "@id": "forest:PowerDistribution"
+                    "@id": "adex:PowerDistribution"
                 }
             ],
             "adex:rangeIncludes": [
                 {
                     "@container": "@list",
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

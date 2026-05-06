@@ -4,31 +4,30 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:freightCost",
+            "@id": "adex:freightCost",
             "@type": [
-                "forest:QuantitativeProperty"
+                "adex:QuantitativeProperty"
             ],
             "rdfs:comment": "The cost incurred for transporting the goods from the point of origin to a destination location.",
             "rdfs:label": "freightCost",
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:CapitalDesc"
+                    "@id": "adex:CapitalDesc"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Number"
+                    "@id": "adex:Number"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ]
         }

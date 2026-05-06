@@ -4,50 +4,49 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:cropNameCommon",
+            "@id": "adex:cropNameCommon",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "The common/local name of the crop species corresponding to the observation.",
             "rdfs:label": "cropNameCommon",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:Crop"
+                    "@id": "adex:Crop"
                 },
                 {
-                    "@id": "forest:CropCondition"
+                    "@id": "adex:CropCondition"
                 },
                 {
-                    "@id": "forest:Seed"
+                    "@id": "adex:Seed"
                 },
                 {
-                    "@id": "forest:AgriAdvisory"
+                    "@id": "adex:AgriAdvisory"
                 },
                 {
-                    "@id": "forest:HyperLocalAdvisory"
+                    "@id": "adex:HyperLocalAdvisory"
                 },
                 {
-                    "@id": "forest:LandParcel"
+                    "@id": "adex:LandParcel"
                 },
                 {
-                    "@id": "forest:AgriCredit"
+                    "@id": "adex:AgriCredit"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

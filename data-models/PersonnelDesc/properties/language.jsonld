@@ -4,51 +4,50 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:language",
+            "@id": "adex:language",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Represents the language(s) that can be used for communicating with an entity or those offered by a service corresponding to this observation.",
             "rdfs:label": "language",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:PersonnelDesc"
+                    "@id": "adex:PersonnelDesc"
                 },
                 {
-                    "@id": "forest:Farmer"
+                    "@id": "adex:Farmer"
                 },
                 {
-                    "@id": "forest:PersonalDesc"
+                    "@id": "adex:PersonalDesc"
                 },
                 {
-                    "@id": "forest:AgriMarket"
+                    "@id": "adex:AgriMarket"
                 },
                 {
-                    "@id": "forest:AgriExpert"
+                    "@id": "adex:AgriExpert"
                 },
                 {
-                    "@id": "forest:ExtensionWorker"
+                    "@id": "adex:ExtensionWorker"
                 },
                 {
-                    "@id": "forest:AgriResearcher"
+                    "@id": "adex:AgriResearcher"
                 }
             ],
             "adex:rangeIncludes": [
                 {
                     "@container": "@list",
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             },
             "skos:exactMatch": {
                 "@id": "Fiware: CPSV-AP.PublicService"

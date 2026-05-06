@@ -5,29 +5,28 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:relationType",
+            "@id": "adex:relationType",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Type of relation. ENUM: [REL_MESSAGESTREAM, REL_FILE, REL_DATASET, REL_THING].",
             "rdfs:label": "relationType",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:RelationshipValue",
+                    "@id": "adex:RelationshipValue",
                     "adex:requiredProperty": true
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ]
         }

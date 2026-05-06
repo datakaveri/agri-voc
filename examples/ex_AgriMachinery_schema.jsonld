@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:AgriMachinery",
-        "forest:Schema"
+        "adex:AgriMachinery",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/AgriMachinery",
     "schema": {

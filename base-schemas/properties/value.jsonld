@@ -8,12 +8,11 @@
         "iudx": "https://voc.iudx.org.in/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:value",
+            "@id": "adex:value",
             "@type": [
                 "rdf:Property"
             ],
@@ -21,24 +20,24 @@
             "rdfs:label": "value",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Number"
+                    "@id": "adex:Number"
                 },
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:Boolean"
+                    "@id": "adex:Boolean"
                 },
                 {
-                    "@id": "forest:NumericArray"
+                    "@id": "adex:NumericArray"
                 },
                 {
-                    "@id": "forest:StructuredValue"
+                    "@id": "adex:StructuredValue"
                 }
             ]
         }

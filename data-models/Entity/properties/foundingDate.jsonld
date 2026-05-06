@@ -4,44 +4,43 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:foundingDate",
+            "@id": "adex:foundingDate",
             "@type": [
-                "forest:TimeProperty"
+                "adex:TimeProperty"
             ],
             "rdfs:comment": "The date when the association/business/market was established.",
             "rdfs:label": "foundingDate",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:FarmerCollective"
+                    "@id": "adex:FarmerCollective"
                 },
                 {
-                    "@id": "forest:AgriMarket"
+                    "@id": "adex:AgriMarket"
                 },
                 {
-                    "@id": "forest:AgriBusiness"
+                    "@id": "adex:AgriBusiness"
                 },
                 {
-                    "@id": "forest:Transporter"
+                    "@id": "adex:Transporter"
                 },
                 {
-                    "@id": "forest:AgriManufacturer"
+                    "@id": "adex:AgriManufacturer"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

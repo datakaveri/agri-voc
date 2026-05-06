@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "forest:Farmer",
-        "forest:Resource"
+        "adex:Farmer",
+        "adex:Resource"
     ],
     "name": "Swaminathan",
     "farmerID": "IN12741",

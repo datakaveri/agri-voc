@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:AgriManufacturer",
-        "forest:Schema"
+        "adex:AgriManufacturer",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/AgriManufacturer",
     "schema": {

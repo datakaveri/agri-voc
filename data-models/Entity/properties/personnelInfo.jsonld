@@ -4,65 +4,64 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:personnelInfo",
+            "@id": "adex:personnelInfo",
             "@type": [
-                "forest:StructuredProperty"
+                "adex:StructuredProperty"
             ],
             "rdfs:comment": "Personnel information of an individual or business corresponding to this observation.",
             "rdfs:label": "personnelInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:Farmer"
+                    "@id": "adex:Farmer"
                 },
                 {
-                    "@id": "forest:CropInsurance"
+                    "@id": "adex:CropInsurance"
                 },
                 {
-                    "@id": "forest:FarmerCollective"
+                    "@id": "adex:FarmerCollective"
                 },
                 {
-                    "@id": "forest:AgriMarket"
+                    "@id": "adex:AgriMarket"
                 },
                 {
-                    "@id": "forest:AgriBusiness"
+                    "@id": "adex:AgriBusiness"
                 },
                 {
-                    "@id": "forest:OtherAgroChemical"
+                    "@id": "adex:OtherAgroChemical"
                 },
                 {
-                    "@id": "forest:Pesticide"
+                    "@id": "adex:Pesticide"
                 },
                 {
-                    "@id": "forest:Fertilizer"
+                    "@id": "adex:Fertilizer"
                 },
                 {
-                    "@id": "forest:AgriMachinery"
+                    "@id": "adex:AgriMachinery"
                 },
                 {
-                    "@id": "forest:GhgReport"
+                    "@id": "adex:GhgReport"
                 },
                 {
-                    "@id": "forest:AgriAdvisory"
+                    "@id": "adex:AgriAdvisory"
                 },
                 {
-                    "@id": "forest:HyperLocalAdvisory"
+                    "@id": "adex:HyperLocalAdvisory"
                 },
                 {
-                    "@id": "forest:RecommendedCropVariety"
+                    "@id": "adex:RecommendedCropVariety"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:PersonnelDesc"
+                    "@id": "adex:PersonnelDesc"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

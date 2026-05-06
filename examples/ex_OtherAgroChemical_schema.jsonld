@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:OtherAgroChemical",
-        "forest:Schema"
+        "adex:OtherAgroChemical",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/OtherAgroChemical",
     "schema": {

@@ -6,25 +6,24 @@
         "iudx": "https://voc.iudx.org.in/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:label",
+            "@id": "adex:label",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Human readable label for an entity",
             "rdfs:label": "label",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:ADEXEntity"
+                    "@id": "adex:ADEXEntity"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 }
             ]
         }

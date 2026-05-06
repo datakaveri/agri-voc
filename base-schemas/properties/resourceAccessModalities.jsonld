@@ -5,27 +5,26 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:resourceAccessModalities",
+            "@id": "adex:resourceAccessModalities",
             "@type": [
-                "forest:StructuredProperty"
+                "adex:StructuredProperty"
             ],
             "rdfs:comment": "Description of domains available for accessing data from the exchange.",
             "rdfs:label": "resourceAccessModalities",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:ResourceServer",
+                    "@id": "adex:ResourceServer",
                     "adex:requiredProperty": true
                 }
             ],
             "adex:rangeIncludes": [
                 {
                     "@container": "@list",
-                    "@id": "forest:ResourceAccessModalities"
+                    "@id": "adex:ResourceAccessModalities"
                 }
             ]
         }

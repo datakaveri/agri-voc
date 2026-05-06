@@ -8,28 +8,27 @@
         "iudx": "https://voc.iudx.org.in/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:resolution",
+            "@id": "adex:resolution",
             "@type": [
-                "forest:QuantitativeProperty"
+                "adex:QuantitativeProperty"
             ],
             "rdfs:comment": "Resolution of a measurement. That is, the smallest change in a quantity being measured that causes a perceptible change in the corresponding observation under specified conditions.",
             "rdfs:label": "resolution",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Number"
+                    "@id": "adex:Number"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ]
         }

@@ -8,50 +8,49 @@
         "iudx": "https://voc.iudx.org.in/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:fileFormat",
+            "@id": "adex:fileFormat",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Format of the media file corresponding to this observation.",
             "rdfs:label": "fileFormat",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:AgriAdvisory"
+                    "@id": "adex:AgriAdvisory"
                 },
                 {
-                    "@id": "forest:ConsentArtifact"
+                    "@id": "adex:ConsentArtifact"
                 },
                 {
-                    "@id": "forest:Imagery"
+                    "@id": "adex:Imagery"
                 },
                 {
-                    "@id": "forest:Common"
+                    "@id": "adex:Common"
                 },
                 {
-                    "@id": "forest:HyperLocalAdvisory"
+                    "@id": "adex:HyperLocalAdvisory"
                 },
                 {
-                    "@id": "forest:Model"
+                    "@id": "adex:Model"
                 },
                 {
-                    "@id": "forest:Resource"
+                    "@id": "adex:Resource"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 },
                 {
                     "@container": "@list",
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 }
             ]
         }

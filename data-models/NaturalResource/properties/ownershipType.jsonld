@@ -4,38 +4,37 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:ownershipType",
+            "@id": "adex:ownershipType",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "The type of ownership of the entity corresponding to this observation. ENUM: [Lease, Rent, Own]",
             "rdfs:label": "ownershipType",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:LandParcel"
+                    "@id": "adex:LandParcel"
                 },
                 {
-                    "@id": "forest:AgriMachinery"
+                    "@id": "adex:AgriMachinery"
                 },
                 {
-                    "@id": "forest:Drone"
+                    "@id": "adex:Drone"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

@@ -8,67 +8,66 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:location",
+            "@id": "adex:location",
             "@type": [
-                "forest:GeoProperty"
+                "adex:GeoProperty"
             ],
             "rdfs:comment": "Location associated with a resource Item (a spatial point), a group of resource items (a spatial region) or even an observation in case of a mobile sensor.",
             "rdfs:label": "location",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:Resource"
+                    "@id": "adex:Resource"
                 },
                 {
-                    "@id": "forest:ResourceGroup"
+                    "@id": "adex:ResourceGroup"
                 },
                 {
-                    "@id": "forest:Provider"
+                    "@id": "adex:Provider"
                 },
                 {
-                    "@id": "forest:ResourceServer"
+                    "@id": "adex:ResourceServer"
                 },
                 {
-                    "@id": "forest:Organization"
+                    "@id": "adex:Organization"
                 },
                 {
-                    "@id": "forest:LandParcel"
+                    "@id": "adex:LandParcel"
                 },
                 {
-                    "@id": "forest:SoilHealth"
+                    "@id": "adex:SoilHealth"
                 },
                 {
-                    "@id": "forest:Device"
+                    "@id": "adex:Device"
                 },
                 {
-                    "@id": "forest:AgriMarket"
+                    "@id": "adex:AgriMarket"
                 },
                 {
-                    "@id": "forest:Weather"
+                    "@id": "adex:Weather"
                 },
                 {
-                    "@id": "forest:Irrigation"
+                    "@id": "adex:Irrigation"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Point"
+                    "@id": "adex:Point"
                 },
                 {
-                    "@id": "forest:GeoJSONGeometry"
+                    "@id": "adex:GeoJSONGeometry"
                 },
                 {
-                    "@id": "forest:Place"
+                    "@id": "adex:Place"
                 },
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "skos:exactMatch": {

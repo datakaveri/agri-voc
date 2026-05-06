@@ -8,46 +8,45 @@
         "schema": "http://schema.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:year",
+            "@id": "adex:year",
             "@type": [
-                "forest:QuantitativeProperty"
+                "adex:QuantitativeProperty"
             ],
             "rdfs:comment": "Year corresponding to this observation and is described in YYYY format, for eg. 2020.",
             "rdfs:label": "year",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:CropDiseaseDesc"
+                    "@id": "adex:CropDiseaseDesc"
                 },
                 {
-                    "@id": "forest:PublicSchemes"
+                    "@id": "adex:PublicSchemes"
                 },
                 {
-                    "@id": "forest:Farmer"
+                    "@id": "adex:Farmer"
                 },
                 {
-                    "@id": "forest:ModelDesc"
+                    "@id": "adex:ModelDesc"
                 },
                 {
-                    "@id": "forest:CropCondition"
+                    "@id": "adex:CropCondition"
                 },
                 {
-                    "@id": "forest:AgriCredit"
+                    "@id": "adex:AgriCredit"
                 },
                 {
-                    "@id": "forest:DomesticPriceInfo"
+                    "@id": "adex:DomesticPriceInfo"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Number"
+                    "@id": "adex:Number"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ]
         }

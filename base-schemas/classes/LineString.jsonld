@@ -7,12 +7,11 @@
         "geojson": "https://purl.org/geojson/vocab#",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:LineString",
+            "@id": "adex:LineString",
             "@type": [
                 "owl:Class",
                 "rdfs:Class"
@@ -23,7 +22,7 @@
                 "@id": "geojson:LineString"
             },
             "rdfs:subClassOf": {
-                "@id": "forest:GeoJSONGeometry"
+                "@id": "adex:GeoJSONGeometry"
             }
         }
     ]

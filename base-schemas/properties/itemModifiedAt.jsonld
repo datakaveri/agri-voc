@@ -6,25 +6,24 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:itemModifiedAt",
+            "@id": "adex:itemModifiedAt",
             "@type": [
-                "forest:TimeProperty"
+                "adex:TimeProperty"
             ],
             "rdfs:comment": "DateTime of modification of a catalogue item.",
             "rdfs:label": "itemModifiedAt",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:ADEXEntity"
+                    "@id": "adex:ADEXEntity"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:DateTime"
+                    "@id": "adex:DateTime"
                 }
             ]
         }

@@ -4,35 +4,34 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:irrigationSource",
+            "@id": "adex:irrigationSource",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "The source of irrigation for a land, such as well, canals, tanks, borewell, etc",
             "rdfs:label": "irrigationSource",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:LandParcel"
+                    "@id": "adex:LandParcel"
                 },
                 {
-                    "@id": "forest:CropCondition"
+                    "@id": "adex:CropCondition"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "forest:OtherAgroChemical",
-        "forest:Resource"
+        "adex:OtherAgroChemical",
+        "adex:Resource"
     ],
     "purposeCode": "IU144",
     "maxResidueLimit": 2.2,

@@ -4,12 +4,11 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:DataDescriptor",
+            "@id": "adex:DataDescriptor",
             "@type": [
                 "owl:Class",
                 "rdfs:Class"
@@ -17,7 +16,7 @@
             "rdfs:comment": "Describes the Data Descriptor Object embedded in another ADEX entity. It provides meta-information about various data fields associated with a resource.",
             "rdfs:label": "DataDescriptor",
             "rdfs:subClassOf": {
-                "@id": "forest:StructuredValue"
+                "@id": "adex:StructuredValue"
             }
         }
     ]

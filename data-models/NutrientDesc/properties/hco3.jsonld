@@ -4,31 +4,30 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:hco3",
+            "@id": "adex:hco3",
             "@type": [
-                "forest:QuantitativeProperty"
+                "adex:QuantitativeProperty"
             ],
             "rdfs:comment": "Observed value of Bicarbonate in the entity under consideration.",
             "rdfs:label": "hco3",
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             },
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:NutrientDesc"
+                    "@id": "adex:NutrientDesc"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Number"
+                    "@id": "adex:Number"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ]
         }

@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "forest:AgriMarket",
-        "forest:Resource"
+        "adex:AgriMarket",
+        "adex:Resource"
     ],
     "agencyName": "Private Trading Agency",
     "registrationNumber": "Q32200MH2009PLC123456",

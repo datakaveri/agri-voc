@@ -4,50 +4,49 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:validTill",
+            "@id": "adex:validTill",
             "@type": [
-                "forest:TimeProperty"
+                "adex:TimeProperty"
             ],
             "rdfs:comment": "The specific period of time during which a document, authorization, offer or permission remains legally or effectively acceptable/applicable.",
             "rdfs:label": "validTill",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:TransportCost"
+                    "@id": "adex:TransportCost"
                 },
                 {
-                    "@id": "forest:ConsentArtifact"
+                    "@id": "adex:ConsentArtifact"
                 },
                 {
-                    "@id": "forest:ExportTransaction"
+                    "@id": "adex:ExportTransaction"
                 },
                 {
-                    "@id": "forest:Drone"
+                    "@id": "adex:Drone"
                 },
                 {
-                    "@id": "forest:SoilHealth"
+                    "@id": "adex:SoilHealth"
                 },
                 {
-                    "@id": "forest:AgriAdvisory"
+                    "@id": "adex:AgriAdvisory"
                 },
                 {
-                    "@id": "forest:RecommendedCropVariety"
+                    "@id": "adex:RecommendedCropVariety"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

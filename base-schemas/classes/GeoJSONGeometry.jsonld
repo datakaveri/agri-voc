@@ -7,12 +7,11 @@
         "geojson": "https://purl.org/geojson/vocab#",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:GeoJSONGeometry",
+            "@id": "adex:GeoJSONGeometry",
             "@type": [
                 "owl:Class",
                 "rdfs:Class"
@@ -20,7 +19,7 @@
             "rdfs:comment": "Describes the GeoJSON object",
             "rdfs:label": "GeoJSONGeometry",
             "rdfs:subClassOf": {
-                "@id": "forest:StructuredValue"
+                "@id": "adex:StructuredValue"
             }
         }
     ]

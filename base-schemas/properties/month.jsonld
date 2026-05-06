@@ -8,24 +8,23 @@
         "schema": "http://schema.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:month",
+            "@id": "adex:month",
             "@type": [
-                "forest:QuantitativeProperty"
+                "adex:QuantitativeProperty"
             ],
             "rdfs:comment": "Month corresponding to this observation and is described in MM format, for eg. 11 for the month of November.",
             "rdfs:label": "month",
             "adex:domainIncludes": [],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Number"
+                    "@id": "adex:Number"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ]
         }

@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:DomesticPriceInfo",
-        "forest:Schema"
+        "adex:DomesticPriceInfo",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/DomesticPriceInfo",
     "schema": {

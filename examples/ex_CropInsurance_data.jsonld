@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "provider-id/rs.adex.org.in/cropinsurance-rg/cropinsurance-ri",
     "type": [
-        "forest:CropInsurance",
-        "forest:Resource"
+        "adex:CropInsurance",
+        "adex:Resource"
     ],
     "issualDate": "2021-01-01",
     "expiryDate": "2022-01-01",

@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:Crop",
-        "forest:Schema"
+        "adex:Crop",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/Crop",
     "schema": {

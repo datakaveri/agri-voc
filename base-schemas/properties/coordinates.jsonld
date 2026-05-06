@@ -8,25 +8,24 @@
         "iudx": "https://voc.iudx.org.in/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:coordinates",
+            "@id": "adex:coordinates",
             "@type": [
-                "forest:GeoProperty"
+                "adex:GeoProperty"
             ],
             "rdfs:comment": "Coordinates for the GeoJSON object",
             "rdfs:label": "coordinates",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:Point"
+                    "@id": "adex:Point"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Number",
+                    "@id": "adex:Number",
                     "@container": "@list"
                 }
             ],

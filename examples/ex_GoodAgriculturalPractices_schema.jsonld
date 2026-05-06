@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:GoodAgriculturalPractices",
-        "forest:Schema"
+        "adex:GoodAgriculturalPractices",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/GoodAgriculturalPractices",
     "schema": {

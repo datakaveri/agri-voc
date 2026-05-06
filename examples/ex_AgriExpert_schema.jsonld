@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:AgriExpert",
-        "forest:Schema"
+        "adex:AgriExpert",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/AgriExpert",
     "schema": {

@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "forest:AgriExpert",
-        "forest:Resource"
+        "adex:AgriExpert",
+        "adex:Resource"
     ],
     "name": "Lavenza",
     "orgName": "KKMS",

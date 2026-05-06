@@ -4,38 +4,37 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:mfgDate",
+            "@id": "adex:mfgDate",
             "@type": [
-                "forest:TimeProperty"
+                "adex:TimeProperty"
             ],
             "rdfs:comment": "The date of manufature of the commodity or product corresponding to this observation.",
             "rdfs:label": "mfgDate",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:OtherAgroChemical"
+                    "@id": "adex:OtherAgroChemical"
                 },
                 {
-                    "@id": "forest:Pesticide"
+                    "@id": "adex:Pesticide"
                 },
                 {
-                    "@id": "forest:Fertilizer"
+                    "@id": "adex:Fertilizer"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

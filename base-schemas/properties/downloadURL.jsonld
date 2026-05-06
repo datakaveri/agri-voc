@@ -8,25 +8,24 @@
         "geojson": "https://purl.org/geojson/vocab#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:downloadURL",
+            "@id": "adex:downloadURL",
             "@type": [
-                "forest:Relationship"
+                "adex:Relationship"
             ],
             "rdfs:comment": "A download URL specifying the protocol, for e.g s3:// or https://, etc.",
             "rdfs:label": "downloadURL",
             "adex:domainIncludes": [],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text",
+                    "@id": "adex:Text",
                     "@type": "@id"
                 },
                 {
-                    "@id": "forest:RelationshipValue"
+                    "@id": "adex:RelationshipValue"
                 }
             ]
         }

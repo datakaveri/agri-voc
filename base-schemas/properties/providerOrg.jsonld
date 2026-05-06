@@ -5,26 +5,25 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:providerOrg",
+            "@id": "adex:providerOrg",
             "@type": [
-                "forest:StructuredProperty"
+                "adex:StructuredProperty"
             ],
             "rdfs:comment": "Information about the Provider Organization.",
             "rdfs:label": "providerOrg",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:Provider",
+                    "@id": "adex:Provider",
                     "adex:requiredProperty": true
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Organization"
+                    "@id": "adex:Organization"
                 }
             ]
         }

@@ -4,38 +4,37 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:targetYield",
+            "@id": "adex:targetYield",
             "@type": [
-                "forest:QuantitativeProperty"
+                "adex:QuantitativeProperty"
             ],
             "rdfs:comment": "The desired or expected level of production for a specific agricultural crop within a given area or field.",
             "rdfs:label": "targetYield",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:CropCondition"
+                    "@id": "adex:CropCondition"
                 },
                 {
-                    "@id": "forest:LandParcel"
+                    "@id": "adex:LandParcel"
                 },
                 {
-                    "@id": "forest:DomesticPriceInfo"
+                    "@id": "adex:DomesticPriceInfo"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Number"
+                    "@id": "adex:Number"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]

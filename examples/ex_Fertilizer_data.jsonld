@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "forest:Fertilizer",
-        "forest:Resource"
+        "adex:Fertilizer",
+        "adex:Resource"
     ],
     "genericName": "Cypermethrin",
     "productName": "Exodus",

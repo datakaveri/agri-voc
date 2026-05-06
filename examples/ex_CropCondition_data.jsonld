@@ -2,8 +2,8 @@
     "@context": "https://agrijson.org/",
     "id": "resource-item-id",
     "type": [
-        "forest:CropCondition",
-        "forest:Resource"
+        "adex:CropCondition",
+        "adex:Resource"
     ],
     "cropNameICC": "Rice",
     "cropNameCommon": "Telangana Sona",

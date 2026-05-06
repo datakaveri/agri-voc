@@ -5,25 +5,24 @@
         "iudx": "https://voc.iudx.org.in/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:accessObjectType",
+            "@id": "adex:accessObjectType",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "Type of access object. ENUM: [OpenAPI, AsyncAPI]",
             "rdfs:label": "accessObjectType",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:AccessObjectInfoValue"
+                    "@id": "adex:AccessObjectInfoValue"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 }
             ]
         }

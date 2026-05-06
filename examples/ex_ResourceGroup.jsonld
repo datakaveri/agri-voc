@@ -1,8 +1,6 @@
 {
     "@context": "https://agrijson.org/",
-    "type": [
-        "forest:ResourceGroup"
-    ],
+    "type": ["adex:ResourceGroup"],
     "id": "providerID/example.com/senosrs",
     "description": "Description of this resource group",
     "name": "sensors",
@@ -13,27 +11,20 @@
     "resourceAuthControlLevel": "INDIVIDUAL",
     "resourceType": "messageStream",
     "authServerInfo": {
-        "type": [
-            "AuthServerInfoValue"
-        ],
-        "authServerURL": "https://myauth.server.org/",
-        "authType": "adex-auth"
+       "type": ["AuthServerInfoValue"],
+       "authServerURL": "https://myauth.server.org/",
+       "authType": "adex-auth"
     },
     "accessObjectInfo": {
-        "type": [
-            "AccessObjectInfoValue"
-        ],
-        "accessObject": "https://example.com/sensorsApis.json",
-        "additionalInfoURL": "https://example.com/sensorsApis",
-        "accessObjectType": "openAPI"
+       "type": ["AccessObjectInfoValue"],
+       "accessObject": "https://example.com/sensorsApis.json",
+       "additionalInfoURL": "https://example.com/sensorsApis",
+       "accessObjectType": "openAPI"
     },
-    "adexResourceAPIs": [
-        "attribute",
-        "temporal"
-    ],
+    "adexResourceAPIs": ["attribute", "temporal"],
     "itemCreatedAt": "2019-02-20T10:30:06.093121",
     "location": {
-        "type": "Place",
-        "address": "Bangalore"
+      "type": "Place",
+      "address": "Bangalore"
     }
 }

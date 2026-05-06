@@ -8,68 +8,67 @@
         "iudx": "https://voc.iudx.org.in/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:mediaURL",
+            "@id": "adex:mediaURL",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "URL providing further information of any image(s) or media of the complaint or place.",
             "rdfs:label": "mediaURL",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:CropDiseaseDesc"
+                    "@id": "adex:CropDiseaseDesc"
                 },
                 {
-                    "@id": "forest:AgriAdvisory"
+                    "@id": "adex:AgriAdvisory"
                 },
                 {
-                    "@id": "forest:ConsentArtifact"
+                    "@id": "adex:ConsentArtifact"
                 },
                 {
-                    "@id": "forest:Imagery"
+                    "@id": "adex:Imagery"
                 },
                 {
-                    "@id": "forest:PublicSchemes"
+                    "@id": "adex:PublicSchemes"
                 },
                 {
-                    "@id": "forest:AgriMarket"
+                    "@id": "adex:AgriMarket"
                 },
                 {
-                    "@id": "forest:CodeSystem"
+                    "@id": "adex:CodeSystem"
                 },
                 {
-                    "@id": "forest:ValueSet"
+                    "@id": "adex:ValueSet"
                 },
                 {
-                    "@id": "forest:AgriBusiness"
+                    "@id": "adex:AgriBusiness"
                 },
                 {
-                    "@id": "forest:CropCondition"
+                    "@id": "adex:CropCondition"
                 },
                 {
-                    "@id": "forest:Transporter"
+                    "@id": "adex:Transporter"
                 },
                 {
-                    "@id": "forest:TransportCost"
+                    "@id": "adex:TransportCost"
                 },
                 {
-                    "@id": "forest:ExportTransaction"
+                    "@id": "adex:ExportTransaction"
                 },
                 {
-                    "@id": "forest:HyperLocalAdvisory"
+                    "@id": "adex:HyperLocalAdvisory"
                 }
             ],
             "adex:rangeIncludes": [
                 {
                     "@container": "@list",
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "skos:exactMatch": {

@@ -1,10 +1,10 @@
 {
     "@context": "https://agrijson.org/",
-    "id": "resource-item-id",
-    "type": [
-        "forest:ProductAuction",
-        "forest:Resource"
-    ],
+	"id": "resource-item-id",
+	"type": [
+		"adex:ProductAuction",
+		"adex:Resource"
+	],
     "rangeName": "BAJJU",
     "depotName": "BAJJU",
     "productName": "Fuel Wood Tortalis",

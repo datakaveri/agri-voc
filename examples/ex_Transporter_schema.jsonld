@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:Transporter",
-        "forest:Schema"
+        "adex:Transporter",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/Transporter",
     "schema": {

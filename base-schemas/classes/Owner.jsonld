@@ -4,12 +4,11 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:Owner",
+            "@id": "adex:Owner",
             "@type": [
                 "owl:Class",
                 "rdfs:Class"
@@ -17,11 +16,13 @@
             "rdfs:comment": "Describes the Owner entity in the IUDX catalogue.",
             "rdfs:label": "Owner",
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             },
             "rdfs:subClassOf": {
-                "@id": "forest:ADEXEntity"
+                "@id": "adex:ADEXEntity"
             }
         }
     ]
 }
+
+

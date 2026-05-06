@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:Fertilizer",
-        "forest:Schema"
+        "adex:Fertilizer",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/Fertilizer",
     "schema": {

@@ -9,28 +9,27 @@
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "qudt": "http://qudt.org/vocab/unit/",
         "schema": "http://schema.org/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:unitCode",
+            "@id": "adex:unitCode",
             "@type": [
-                "forest:TextProperty"
+                "adex:TextProperty"
             ],
             "rdfs:comment": "The unit of measurement given using the UN/CEFACT Common Code (3 characters) or a URL. Other codes/unit vocabularies may be used with a prefix",
             "rdfs:label": "unitCode",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:ValueDescriptor"
+                    "@id": "adex:ValueDescriptor"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:Text",
+                    "@id": "adex:Text",
                     "@type": "@id"
                 }
             ],

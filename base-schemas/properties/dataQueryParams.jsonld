@@ -5,32 +5,31 @@
         "iudx": "https://voc.iudx.org.in/",
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:dataQueryParams",
+            "@id": "adex:dataQueryParams",
             "@type": [
-                "forest:Relationship"
+                "adex:Relationship"
             ],
             "rdfs:comment": "Describes the parameters or attributes that are to be passed as a part of the API request to fetch data.",
             "rdfs:label": "dataQueryParams",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:ResourceGroup"
+                    "@id": "adex:ResourceGroup"
                 },
                 {
-                    "@id": "forest:Resource"
+                    "@id": "adex:Resource"
                 }
             ],
             "adex:rangeIncludes": [
                 {
                     "@container": "@list",
-                    "@id": "forest:Text"
+                    "@id": "adex:Text"
                 },
                 {
-                    "@id": "forest:RelationshipValue"
+                    "@id": "adex:RelationshipValue"
                 }
             ]
         }

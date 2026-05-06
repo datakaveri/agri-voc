@@ -1,8 +1,8 @@
 {
     "@context": "https://agrijson.org/",
     "type": [
-        "forest:AgriMarket",
-        "forest:Schema"
+        "adex:AgriMarket",
+        "adex:Schema"
     ],
     "id": "https://agrijson.org/AgriMarket",
     "schema": {

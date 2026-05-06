@@ -4,53 +4,52 @@
         "owl": "http://www.w3.org/2002/07/owl#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "iudx": "https://voc.iudx.org.in/",
-        "adex": "https://agrijson.org/",
-        "forest": "https://voc.forest-stack.iudx.io/"
+        "adex": "https://agrijson.org/"
     },
     "@graph": [
         {
-            "@id": "forest:certificateInfo",
+            "@id": "adex:certificateInfo",
             "@type": [
-                "forest:StructuredProperty"
+                "adex:StructuredProperty"
             ],
             "rdfs:comment": "Date of issual, expiry/validity, renewal of the document/certificate corresponding to this observation.",
             "rdfs:label": "certificateInfo",
             "adex:domainIncludes": [
                 {
-                    "@id": "forest:FarmerCollective"
+                    "@id": "adex:FarmerCollective"
                 },
                 {
-                    "@id": "forest:OtherAgroChemical"
+                    "@id": "adex:OtherAgroChemical"
                 },
                 {
-                    "@id": "forest:Pesticide"
+                    "@id": "adex:Pesticide"
                 },
                 {
-                    "@id": "forest:Fertilizer"
+                    "@id": "adex:Fertilizer"
                 },
                 {
-                    "@id": "forest:AgriMachinery"
+                    "@id": "adex:AgriMachinery"
                 },
                 {
-                    "@id": "forest:GhgReport"
+                    "@id": "adex:GhgReport"
                 },
                 {
-                    "@id": "forest:CropCondition"
+                    "@id": "adex:CropCondition"
                 },
                 {
-                    "@id": "forest:Seed"
+                    "@id": "adex:Seed"
                 },
                 {
-                    "@id": "forest:AgriManufacturer"
+                    "@id": "adex:AgriManufacturer"
                 }
             ],
             "adex:rangeIncludes": [
                 {
-                    "@id": "forest:CertificateDesc"
+                    "@id": "adex:CertificateDesc"
                 }
             ],
             "rdfs:isDefinedBy": {
-                "@id": "forest:"
+                "@id": "adex:"
             }
         }
     ]
